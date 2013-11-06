@@ -1,0 +1,1028 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		15BAC4F8132C22BA00F5C41A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15BAC4F7132C22BA00F5C41A /* Foundation.framework */; };
+		A9B44C6D1829EE2800857CF8 /* osal.h in Headers */ = {isa = PBXBuildFile; fileRef = A9B44BEE1829EE2800857CF8 /* osal.h */; };
+		A9B44C6E1829EE2800857CF8 /* tools.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A9B44BEF1829EE2800857CF8 /* tools.cpp */; };
+		A9B44C6F1829EE2800857CF8 /* tools.h in Headers */ = {isa = PBXBuildFile; fileRef = A9B44BF01829EE2800857CF8 /* tools.h */; };
+		A9B44C701829EE2800857CF8 /* basichttpobserver.h in Headers */ = {isa = PBXBuildFile; fileRef = A9B44BF21829EE2800857CF8 /* basichttpobserver.h */; };
+		A9B44C711829EE2800857CF8 /* basichttpserver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A9B44BF31829EE2800857CF8 /* basichttpserver.cpp */; };
+		A9B44C721829EE2800857CF8 /* basichttpserver.h in Headers */ = {isa = PBXBuildFile; fileRef = A9B44BF41829EE2800857CF8 /* basichttpserver.h */; };
+		A9B44C731829EE2800857CF8 /* BasicHTTPServer_ObjC.mm in Sources */ = {isa = PBXBuildFile; fileRef = A9B44BF51829EE2800857CF8 /* BasicHTTPServer_ObjC.mm */; };
+		A9B44C741829EE2800857CF8 /* httpsession.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A9B44BF61829EE2800857CF8 /* httpsession.cpp */; };
+		A9B44C751829EE2800857CF8 /* httpsession.h in Headers */ = {isa = PBXBuildFile; fileRef = A9B44BF71829EE2800857CF8 /* httpsession.h */; };
+		A9B44C761829EE2800857CF8 /* socketserver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A9B44BF81829EE2800857CF8 /* socketserver.cpp */; };
+		A9B44C771829EE2800857CF8 /* socketserver.h in Headers */ = {isa = PBXBuildFile; fileRef = A9B44BF91829EE2800857CF8 /* socketserver.h */; };
+		A9B44C781829EE2800857CF8 /* SocketServer_ObjC.h in Headers */ = {isa = PBXBuildFile; fileRef = A9B44BFA1829EE2800857CF8 /* SocketServer_ObjC.h */; };
+		A9B44C791829EE2800857CF8 /* SocketServer_ObjC.mm in Sources */ = {isa = PBXBuildFile; fileRef = A9B44BFB1829EE2800857CF8 /* SocketServer_ObjC.mm */; };
+		A9B44C7A1829EE2800857CF8 /* socketserverconnection.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A9B44BFC1829EE2800857CF8 /* socketserverconnection.cpp */; };
+		A9B44C7B1829EE2800857CF8 /* socketserverconnection.h in Headers */ = {isa = PBXBuildFile; fileRef = A9B44BFD1829EE2800857CF8 /* socketserverconnection.h */; };
+		A9B44C7C1829EE2800857CF8 /* socketServerobserver.h in Headers */ = {isa = PBXBuildFile; fileRef = A9B44BFE1829EE2800857CF8 /* socketServerobserver.h */; };
+		A9B44C801829EE2800857CF8 /* main.mm in Sources */ = {isa = PBXBuildFile; fileRef = A9B44C071829EE2800857CF8 /* main.mm */; };
+		A9B44C811829EE2800857CF8 /* ssdp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A9B44C081829EE2800857CF8 /* ssdp.cpp */; };
+		A9B44C821829EE2800857CF8 /* ssdp.h in Headers */ = {isa = PBXBuildFile; fileRef = A9B44C091829EE2800857CF8 /* ssdp.h */; };
+		A9B44C831829EE2800857CF8 /* ssdpdb.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A9B44C0A1829EE2800857CF8 /* ssdpdb.cpp */; };
+		A9B44C841829EE2800857CF8 /* ssdpdb.h in Headers */ = {isa = PBXBuildFile; fileRef = A9B44C0B1829EE2800857CF8 /* ssdpdb.h */; };
+		A9B44C851829EE2800857CF8 /* SSDPDB_ObjC.mm in Sources */ = {isa = PBXBuildFile; fileRef = A9B44C0C1829EE2800857CF8 /* SSDPDB_ObjC.mm */; };
+		A9B44C861829EE2800857CF8 /* ssdpdbdevice.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A9B44C0D1829EE2800857CF8 /* ssdpdbdevice.cpp */; };
+		A9B44C871829EE2800857CF8 /* ssdpdbdevice.h in Headers */ = {isa = PBXBuildFile; fileRef = A9B44C0E1829EE2800857CF8 /* ssdpdbdevice.h */; };
+		A9B44C881829EE2800857CF8 /* ssdpdbobserver.h in Headers */ = {isa = PBXBuildFile; fileRef = A9B44C0F1829EE2800857CF8 /* ssdpdbobserver.h */; };
+		A9B44C891829EE2800857CF8 /* ssdphttp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A9B44C101829EE2800857CF8 /* ssdphttp.cpp */; };
+		A9B44C8A1829EE2800857CF8 /* ssdphttp.h in Headers */ = {isa = PBXBuildFile; fileRef = A9B44C111829EE2800857CF8 /* ssdphttp.h */; };
+		A9B44C8B1829EE2800857CF8 /* ssdpmessage.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A9B44C121829EE2800857CF8 /* ssdpmessage.cpp */; };
+		A9B44C8C1829EE2800857CF8 /* ssdpmessage.h in Headers */ = {isa = PBXBuildFile; fileRef = A9B44C131829EE2800857CF8 /* ssdpmessage.h */; };
+		A9B44C8D1829EE2800857CF8 /* ssdpmsearch.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A9B44C141829EE2800857CF8 /* ssdpmsearch.cpp */; };
+		A9B44C8E1829EE2800857CF8 /* ssdpmsearch.h in Headers */ = {isa = PBXBuildFile; fileRef = A9B44C151829EE2800857CF8 /* ssdpmsearch.h */; };
+		A9B44C8F1829EE2800857CF8 /* ssdpnotify.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A9B44C161829EE2800857CF8 /* ssdpnotify.cpp */; };
+		A9B44C901829EE2800857CF8 /* ssdpnotify.h in Headers */ = {isa = PBXBuildFile; fileRef = A9B44C171829EE2800857CF8 /* ssdpnotify.h */; };
+		A9B44C911829EE2800857CF8 /* ssdpnotifyalive.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A9B44C181829EE2800857CF8 /* ssdpnotifyalive.cpp */; };
+		A9B44C921829EE2800857CF8 /* ssdpnotifyalive.h in Headers */ = {isa = PBXBuildFile; fileRef = A9B44C191829EE2800857CF8 /* ssdpnotifyalive.h */; };
+		A9B44C931829EE2800857CF8 /* ssdpnotifybye.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A9B44C1A1829EE2800857CF8 /* ssdpnotifybye.cpp */; };
+		A9B44C941829EE2800857CF8 /* ssdpnotifybye.h in Headers */ = {isa = PBXBuildFile; fileRef = A9B44C1B1829EE2800857CF8 /* ssdpnotifybye.h */; };
+		A9B44C951829EE2800857CF8 /* ssdpnotifyupdate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A9B44C1C1829EE2800857CF8 /* ssdpnotifyupdate.cpp */; };
+		A9B44C961829EE2800857CF8 /* ssdpnotifyupdate.h in Headers */ = {isa = PBXBuildFile; fileRef = A9B44C1D1829EE2800857CF8 /* ssdpnotifyupdate.h */; };
+		A9B44C971829EE2800857CF8 /* ssdpobserver.h in Headers */ = {isa = PBXBuildFile; fileRef = A9B44C1E1829EE2800857CF8 /* ssdpobserver.h */; };
+		A9B44C981829EE2800857CF8 /* ssdpparser.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A9B44C1F1829EE2800857CF8 /* ssdpparser.cpp */; };
+		A9B44C991829EE2800857CF8 /* ssdpparser.h in Headers */ = {isa = PBXBuildFile; fileRef = A9B44C201829EE2800857CF8 /* ssdpparser.h */; };
+		A9B44C9A1829EE2800857CF8 /* ssdpsearchreq.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A9B44C211829EE2800857CF8 /* ssdpsearchreq.cpp */; };
+		A9B44C9B1829EE2800857CF8 /* ssdpsearchreq.h in Headers */ = {isa = PBXBuildFile; fileRef = A9B44C221829EE2800857CF8 /* ssdpsearchreq.h */; };
+		A9B44C9C1829EE2800857CF8 /* ssdpsearchresp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A9B44C231829EE2800857CF8 /* ssdpsearchresp.cpp */; };
+		A9B44C9D1829EE2800857CF8 /* ssdpsearchresp.h in Headers */ = {isa = PBXBuildFile; fileRef = A9B44C241829EE2800857CF8 /* ssdpsearchresp.h */; };
+		A9B44C9E1829EE2800857CF8 /* ssdptools.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A9B44C251829EE2800857CF8 /* ssdptools.cpp */; };
+		A9B44C9F1829EE2800857CF8 /* ssdptools.h in Headers */ = {isa = PBXBuildFile; fileRef = A9B44C261829EE2800857CF8 /* ssdptools.h */; };
+		A9B44CA01829EE2800857CF8 /* upnp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A9B44C271829EE2800857CF8 /* upnp.cpp */; };
+		A9B44CA11829EE2800857CF8 /* upnp.h in Headers */ = {isa = PBXBuildFile; fileRef = A9B44C281829EE2800857CF8 /* upnp.h */; };
+		A9B44CA21829EE2800857CF8 /* BasicDeviceParser.m in Sources */ = {isa = PBXBuildFile; fileRef = A9B44C2B1829EE2800857CF8 /* BasicDeviceParser.m */; };
+		A9B44CA31829EE2800857CF8 /* BasicParser.m in Sources */ = {isa = PBXBuildFile; fileRef = A9B44C2C1829EE2800857CF8 /* BasicParser.m */; };
+		A9B44CA41829EE2800857CF8 /* BasicParserAsset.m in Sources */ = {isa = PBXBuildFile; fileRef = A9B44C2D1829EE2800857CF8 /* BasicParserAsset.m */; };
+		A9B44CA51829EE2800857CF8 /* BasicServiceParser.m in Sources */ = {isa = PBXBuildFile; fileRef = A9B44C2E1829EE2800857CF8 /* BasicServiceParser.m */; };
+		A9B44CA61829EE2800857CF8 /* BasicUPnPDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = A9B44C2F1829EE2800857CF8 /* BasicUPnPDevice.m */; };
+		A9B44CA71829EE2800857CF8 /* BasicUPnPService.m in Sources */ = {isa = PBXBuildFile; fileRef = A9B44C301829EE2800857CF8 /* BasicUPnPService.m */; };
+		A9B44CA81829EE2800857CF8 /* BinaryLight1Device.m in Sources */ = {isa = PBXBuildFile; fileRef = A9B44C311829EE2800857CF8 /* BinaryLight1Device.m */; };
+		A9B44CA91829EE2800857CF8 /* CocoaTools.m in Sources */ = {isa = PBXBuildFile; fileRef = A9B44C321829EE2800857CF8 /* CocoaTools.m */; };
+		A9B44CAA1829EE2800857CF8 /* DeviceFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = A9B44C331829EE2800857CF8 /* DeviceFactory.m */; };
+		A9B44CAB1829EE2800857CF8 /* DigitalSecurityCamera1Device.m in Sources */ = {isa = PBXBuildFile; fileRef = A9B44C341829EE2800857CF8 /* DigitalSecurityCamera1Device.m */; };
+		A9B44CAC1829EE2800857CF8 /* DimmableLigh1tDevice.m in Sources */ = {isa = PBXBuildFile; fileRef = A9B44C351829EE2800857CF8 /* DimmableLigh1tDevice.m */; };
+		A9B44CAD1829EE2800857CF8 /* InternetGateway2Device.m in Sources */ = {isa = PBXBuildFile; fileRef = A9B44C361829EE2800857CF8 /* InternetGateway2Device.m */; };
+		A9B44CAE1829EE2800857CF8 /* LAN1Device.m in Sources */ = {isa = PBXBuildFile; fileRef = A9B44C371829EE2800857CF8 /* LAN1Device.m */; };
+		A9B44CAF1829EE2800857CF8 /* LastChangeParser.m in Sources */ = {isa = PBXBuildFile; fileRef = A9B44C381829EE2800857CF8 /* LastChangeParser.m */; };
+		A9B44CB01829EE2800857CF8 /* MediaPlaylist.m in Sources */ = {isa = PBXBuildFile; fileRef = A9B44C391829EE2800857CF8 /* MediaPlaylist.m */; };
+		A9B44CB11829EE2800857CF8 /* MediaRenderer1Device.m in Sources */ = {isa = PBXBuildFile; fileRef = A9B44C3A1829EE2800857CF8 /* MediaRenderer1Device.m */; };
+		A9B44CB21829EE2800857CF8 /* MediaServer1BasicObject.m in Sources */ = {isa = PBXBuildFile; fileRef = A9B44C3B1829EE2800857CF8 /* MediaServer1BasicObject.m */; };
+		A9B44CB31829EE2800857CF8 /* MediaServer1ContainerObject.m in Sources */ = {isa = PBXBuildFile; fileRef = A9B44C3C1829EE2800857CF8 /* MediaServer1ContainerObject.m */; };
+		A9B44CB41829EE2800857CF8 /* MediaServer1Device.m in Sources */ = {isa = PBXBuildFile; fileRef = A9B44C3D1829EE2800857CF8 /* MediaServer1Device.m */; };
+		A9B44CB51829EE2800857CF8 /* MediaServer1ItemObject.m in Sources */ = {isa = PBXBuildFile; fileRef = A9B44C3E1829EE2800857CF8 /* MediaServer1ItemObject.m */; };
+		A9B44CB61829EE2800857CF8 /* MediaServer1ItemRes.m in Sources */ = {isa = PBXBuildFile; fileRef = A9B44C3F1829EE2800857CF8 /* MediaServer1ItemRes.m */; };
+		A9B44CB71829EE2800857CF8 /* MediaServerBasicObjectParser.m in Sources */ = {isa = PBXBuildFile; fileRef = A9B44C401829EE2800857CF8 /* MediaServerBasicObjectParser.m */; };
+		A9B44CB81829EE2800857CF8 /* OrderedDictionary.h in Headers */ = {isa = PBXBuildFile; fileRef = A9B44C411829EE2800857CF8 /* OrderedDictionary.h */; };
+		A9B44CB91829EE2800857CF8 /* OrderedDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = A9B44C421829EE2800857CF8 /* OrderedDictionary.m */; };
+		A9B44CBA1829EE2800857CF8 /* ServiceFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = A9B44C431829EE2800857CF8 /* ServiceFactory.m */; };
+		A9B44CBB1829EE2800857CF8 /* SoapAction.m in Sources */ = {isa = PBXBuildFile; fileRef = A9B44C441829EE2800857CF8 /* SoapAction.m */; };
+		A9B44CBC1829EE2800857CF8 /* SoapActionFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = A9B44C451829EE2800857CF8 /* SoapActionFactory.m */; };
+		A9B44CBD1829EE2800857CF8 /* SoapActionsAVTransport1.m in Sources */ = {isa = PBXBuildFile; fileRef = A9B44C461829EE2800857CF8 /* SoapActionsAVTransport1.m */; };
+		A9B44CBE1829EE2800857CF8 /* SoapActionsCallManagement1.m in Sources */ = {isa = PBXBuildFile; fileRef = A9B44C471829EE2800857CF8 /* SoapActionsCallManagement1.m */; };
+		A9B44CBF1829EE2800857CF8 /* SoapActionsConfigurationManagement1.m in Sources */ = {isa = PBXBuildFile; fileRef = A9B44C481829EE2800857CF8 /* SoapActionsConfigurationManagement1.m */; };
+		A9B44CC01829EE2800857CF8 /* SoapActionsConnectionManager1.m in Sources */ = {isa = PBXBuildFile; fileRef = A9B44C491829EE2800857CF8 /* SoapActionsConnectionManager1.m */; };
+		A9B44CC11829EE2800857CF8 /* SoapActionsContentDirectory1.m in Sources */ = {isa = PBXBuildFile; fileRef = A9B44C4A1829EE2800857CF8 /* SoapActionsContentDirectory1.m */; };
+		A9B44CC21829EE2800857CF8 /* SoapActionsDeviceProtection1.m in Sources */ = {isa = PBXBuildFile; fileRef = A9B44C4B1829EE2800857CF8 /* SoapActionsDeviceProtection1.m */; };
+		A9B44CC31829EE2800857CF8 /* SoapActionsDigitalSecurityCameraMotionImage1.m in Sources */ = {isa = PBXBuildFile; fileRef = A9B44C4C1829EE2800857CF8 /* SoapActionsDigitalSecurityCameraMotionImage1.m */; };
+		A9B44CC41829EE2800857CF8 /* SoapActionsDigitalSecurityCameraSettings1.m in Sources */ = {isa = PBXBuildFile; fileRef = A9B44C4D1829EE2800857CF8 /* SoapActionsDigitalSecurityCameraSettings1.m */; };
+		A9B44CC51829EE2800857CF8 /* SoapActionsDigitalSecurityCameraStillImage1.m in Sources */ = {isa = PBXBuildFile; fileRef = A9B44C4E1829EE2800857CF8 /* SoapActionsDigitalSecurityCameraStillImage1.m */; };
+		A9B44CC61829EE2800857CF8 /* SoapActionsDimming1.m in Sources */ = {isa = PBXBuildFile; fileRef = A9B44C4F1829EE2800857CF8 /* SoapActionsDimming1.m */; };
+		A9B44CC71829EE2800857CF8 /* SoapActionsInputConfig1.m in Sources */ = {isa = PBXBuildFile; fileRef = A9B44C501829EE2800857CF8 /* SoapActionsInputConfig1.m */; };
+		A9B44CC81829EE2800857CF8 /* SoapActionsLANHostConfigManagement1.m in Sources */ = {isa = PBXBuildFile; fileRef = A9B44C511829EE2800857CF8 /* SoapActionsLANHostConfigManagement1.m */; };
+		A9B44CC91829EE2800857CF8 /* SoapActionsLayer3Forwarding1.m in Sources */ = {isa = PBXBuildFile; fileRef = A9B44C521829EE2800857CF8 /* SoapActionsLayer3Forwarding1.m */; };
+		A9B44CCA1829EE2800857CF8 /* SoapActionsMediaManagement1.m in Sources */ = {isa = PBXBuildFile; fileRef = A9B44C531829EE2800857CF8 /* SoapActionsMediaManagement1.m */; };
+		A9B44CCB1829EE2800857CF8 /* SoapActionsMessaging1.m in Sources */ = {isa = PBXBuildFile; fileRef = A9B44C541829EE2800857CF8 /* SoapActionsMessaging1.m */; };
+		A9B44CCC1829EE2800857CF8 /* SoapActionsRendering.m in Sources */ = {isa = PBXBuildFile; fileRef = A9B44C551829EE2800857CF8 /* SoapActionsRendering.m */; };
+		A9B44CCD1829EE2800857CF8 /* SoapActionsRenderingControl1.m in Sources */ = {isa = PBXBuildFile; fileRef = A9B44C561829EE2800857CF8 /* SoapActionsRenderingControl1.m */; };
+		A9B44CCE1829EE2800857CF8 /* SoapActionsSwitchPower1.m in Sources */ = {isa = PBXBuildFile; fileRef = A9B44C571829EE2800857CF8 /* SoapActionsSwitchPower1.m */; };
+		A9B44CCF1829EE2800857CF8 /* SoapActionsWANCableLinkConfig1.m in Sources */ = {isa = PBXBuildFile; fileRef = A9B44C581829EE2800857CF8 /* SoapActionsWANCableLinkConfig1.m */; };
+		A9B44CD01829EE2800857CF8 /* SoapActionsWANCommonInterfaceConfig1.m in Sources */ = {isa = PBXBuildFile; fileRef = A9B44C591829EE2800857CF8 /* SoapActionsWANCommonInterfaceConfig1.m */; };
+		A9B44CD11829EE2800857CF8 /* SoapActionsWANDSLLinkConfig1.m in Sources */ = {isa = PBXBuildFile; fileRef = A9B44C5A1829EE2800857CF8 /* SoapActionsWANDSLLinkConfig1.m */; };
+		A9B44CD21829EE2800857CF8 /* SoapActionsWANEthernetLinkConfig1.m in Sources */ = {isa = PBXBuildFile; fileRef = A9B44C5B1829EE2800857CF8 /* SoapActionsWANEthernetLinkConfig1.m */; };
+		A9B44CD31829EE2800857CF8 /* SoapActionsWANIPConnection1.m in Sources */ = {isa = PBXBuildFile; fileRef = A9B44C5C1829EE2800857CF8 /* SoapActionsWANIPConnection1.m */; };
+		A9B44CD41829EE2800857CF8 /* SoapActionsWANIPConnection2.m in Sources */ = {isa = PBXBuildFile; fileRef = A9B44C5D1829EE2800857CF8 /* SoapActionsWANIPConnection2.m */; };
+		A9B44CD51829EE2800857CF8 /* SoapActionsWANIPv6FirewallControl1.m in Sources */ = {isa = PBXBuildFile; fileRef = A9B44C5E1829EE2800857CF8 /* SoapActionsWANIPv6FirewallControl1.m */; };
+		A9B44CD61829EE2800857CF8 /* SoapActionsWANPOTSLinkConfig1.m in Sources */ = {isa = PBXBuildFile; fileRef = A9B44C5F1829EE2800857CF8 /* SoapActionsWANPOTSLinkConfig1.m */; };
+		A9B44CD71829EE2800857CF8 /* SoapActionsWANPPPConnection1.m in Sources */ = {isa = PBXBuildFile; fileRef = A9B44C601829EE2800857CF8 /* SoapActionsWANPPPConnection1.m */; };
+		A9B44CD81829EE2800857CF8 /* StateVariable.m in Sources */ = {isa = PBXBuildFile; fileRef = A9B44C611829EE2800857CF8 /* StateVariable.m */; };
+		A9B44CD91829EE2800857CF8 /* StateVariableList.m in Sources */ = {isa = PBXBuildFile; fileRef = A9B44C621829EE2800857CF8 /* StateVariableList.m */; };
+		A9B44CDA1829EE2800857CF8 /* StateVariableRange.m in Sources */ = {isa = PBXBuildFile; fileRef = A9B44C631829EE2800857CF8 /* StateVariableRange.m */; };
+		A9B44CDB1829EE2800857CF8 /* TelephonyClient1Device.m in Sources */ = {isa = PBXBuildFile; fileRef = A9B44C641829EE2800857CF8 /* TelephonyClient1Device.m */; };
+		A9B44CDC1829EE2800857CF8 /* TelephonyServer1Device.m in Sources */ = {isa = PBXBuildFile; fileRef = A9B44C651829EE2800857CF8 /* TelephonyServer1Device.m */; };
+		A9B44CDD1829EE2800857CF8 /* UPnPDB.m in Sources */ = {isa = PBXBuildFile; fileRef = A9B44C661829EE2800857CF8 /* UPnPDB.m */; };
+		A9B44CDE1829EE2800857CF8 /* UPnPEventParser.m in Sources */ = {isa = PBXBuildFile; fileRef = A9B44C671829EE2800857CF8 /* UPnPEventParser.m */; };
+		A9B44CDF1829EE2800857CF8 /* UPnPEvents.m in Sources */ = {isa = PBXBuildFile; fileRef = A9B44C681829EE2800857CF8 /* UPnPEvents.m */; };
+		A9B44CE01829EE2800857CF8 /* UPnPManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A9B44C691829EE2800857CF8 /* UPnPManager.m */; };
+		A9B44CE11829EE2800857CF8 /* WAN2Device.m in Sources */ = {isa = PBXBuildFile; fileRef = A9B44C6A1829EE2800857CF8 /* WAN2Device.m */; };
+		A9B44CE21829EE2800857CF8 /* WANConnection1Device.m in Sources */ = {isa = PBXBuildFile; fileRef = A9B44C6B1829EE2800857CF8 /* WANConnection1Device.m */; };
+		A9B44CE31829EE2800857CF8 /* WANConnection2Device.m in Sources */ = {isa = PBXBuildFile; fileRef = A9B44C6C1829EE2800857CF8 /* WANConnection2Device.m */; };
+		A9B44CE51829EE7800857CF8 /* upnpx-Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = A9B44CE41829EE7800857CF8 /* upnpx-Prefix.pch */; };
+		A9B44DAF1829EF6000857CF8 /* BasicDeviceParser.h in Headers */ = {isa = PBXBuildFile; fileRef = A9B44D6D1829EF5F00857CF8 /* BasicDeviceParser.h */; };
+		A9B44DB01829EF6000857CF8 /* BasicHTTPServer_ObjC.h in Headers */ = {isa = PBXBuildFile; fileRef = A9B44D6E1829EF5F00857CF8 /* BasicHTTPServer_ObjC.h */; };
+		A9B44DB11829EF6000857CF8 /* BasicParser.h in Headers */ = {isa = PBXBuildFile; fileRef = A9B44D6F1829EF5F00857CF8 /* BasicParser.h */; };
+		A9B44DB21829EF6000857CF8 /* BasicParserAsset.h in Headers */ = {isa = PBXBuildFile; fileRef = A9B44D701829EF5F00857CF8 /* BasicParserAsset.h */; };
+		A9B44DB31829EF6000857CF8 /* BasicServiceParser.h in Headers */ = {isa = PBXBuildFile; fileRef = A9B44D711829EF5F00857CF8 /* BasicServiceParser.h */; };
+		A9B44DB41829EF6000857CF8 /* BasicUPnPDevice.h in Headers */ = {isa = PBXBuildFile; fileRef = A9B44D721829EF5F00857CF8 /* BasicUPnPDevice.h */; };
+		A9B44DB51829EF6000857CF8 /* BasicUPnPService.h in Headers */ = {isa = PBXBuildFile; fileRef = A9B44D731829EF5F00857CF8 /* BasicUPnPService.h */; };
+		A9B44DB61829EF6000857CF8 /* BinaryLight1Device.h in Headers */ = {isa = PBXBuildFile; fileRef = A9B44D741829EF5F00857CF8 /* BinaryLight1Device.h */; };
+		A9B44DB71829EF6000857CF8 /* CocoaTools.h in Headers */ = {isa = PBXBuildFile; fileRef = A9B44D751829EF5F00857CF8 /* CocoaTools.h */; };
+		A9B44DB81829EF6000857CF8 /* DeviceFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = A9B44D761829EF5F00857CF8 /* DeviceFactory.h */; };
+		A9B44DB91829EF6000857CF8 /* DigitalSecurityCamera1Device.h in Headers */ = {isa = PBXBuildFile; fileRef = A9B44D771829EF5F00857CF8 /* DigitalSecurityCamera1Device.h */; };
+		A9B44DBA1829EF6000857CF8 /* DimmableLight1Device.h in Headers */ = {isa = PBXBuildFile; fileRef = A9B44D781829EF5F00857CF8 /* DimmableLight1Device.h */; };
+		A9B44DBB1829EF6000857CF8 /* InternetGateway2Device.h in Headers */ = {isa = PBXBuildFile; fileRef = A9B44D791829EF5F00857CF8 /* InternetGateway2Device.h */; };
+		A9B44DBC1829EF6000857CF8 /* LAN1Device.h in Headers */ = {isa = PBXBuildFile; fileRef = A9B44D7A1829EF5F00857CF8 /* LAN1Device.h */; };
+		A9B44DBD1829EF6000857CF8 /* LastChangeParser.h in Headers */ = {isa = PBXBuildFile; fileRef = A9B44D7B1829EF5F00857CF8 /* LastChangeParser.h */; };
+		A9B44DBE1829EF6000857CF8 /* MediaPlaylist.h in Headers */ = {isa = PBXBuildFile; fileRef = A9B44D7C1829EF5F00857CF8 /* MediaPlaylist.h */; };
+		A9B44DBF1829EF6000857CF8 /* MediaRenderer1Device.h in Headers */ = {isa = PBXBuildFile; fileRef = A9B44D7D1829EF5F00857CF8 /* MediaRenderer1Device.h */; };
+		A9B44DC01829EF6000857CF8 /* MediaServer1BasicObject.h in Headers */ = {isa = PBXBuildFile; fileRef = A9B44D7E1829EF5F00857CF8 /* MediaServer1BasicObject.h */; };
+		A9B44DC11829EF6000857CF8 /* MediaServer1ContainerObject.h in Headers */ = {isa = PBXBuildFile; fileRef = A9B44D7F1829EF5F00857CF8 /* MediaServer1ContainerObject.h */; };
+		A9B44DC21829EF6000857CF8 /* MediaServer1Device.h in Headers */ = {isa = PBXBuildFile; fileRef = A9B44D801829EF5F00857CF8 /* MediaServer1Device.h */; };
+		A9B44DC31829EF6000857CF8 /* MediaServer1ItemObject.h in Headers */ = {isa = PBXBuildFile; fileRef = A9B44D811829EF5F00857CF8 /* MediaServer1ItemObject.h */; };
+		A9B44DC41829EF6000857CF8 /* MediaServer1ItemRes.h in Headers */ = {isa = PBXBuildFile; fileRef = A9B44D821829EF5F00857CF8 /* MediaServer1ItemRes.h */; };
+		A9B44DC51829EF6000857CF8 /* MediaServerBasicObjectParser.h in Headers */ = {isa = PBXBuildFile; fileRef = A9B44D831829EF5F00857CF8 /* MediaServerBasicObjectParser.h */; };
+		A9B44DC61829EF6000857CF8 /* ServiceFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = A9B44D841829EF5F00857CF8 /* ServiceFactory.h */; };
+		A9B44DC71829EF6000857CF8 /* SoapAction.h in Headers */ = {isa = PBXBuildFile; fileRef = A9B44D851829EF5F00857CF8 /* SoapAction.h */; };
+		A9B44DC81829EF6000857CF8 /* SoapActionFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = A9B44D861829EF5F00857CF8 /* SoapActionFactory.h */; };
+		A9B44DC91829EF6000857CF8 /* SoapActionsAVTransport1.h in Headers */ = {isa = PBXBuildFile; fileRef = A9B44D871829EF5F00857CF8 /* SoapActionsAVTransport1.h */; };
+		A9B44DCA1829EF6000857CF8 /* SoapActionsCallManagement1.h in Headers */ = {isa = PBXBuildFile; fileRef = A9B44D881829EF5F00857CF8 /* SoapActionsCallManagement1.h */; };
+		A9B44DCB1829EF6000857CF8 /* SoapActionsConfigurationManagement1.h in Headers */ = {isa = PBXBuildFile; fileRef = A9B44D891829EF5F00857CF8 /* SoapActionsConfigurationManagement1.h */; };
+		A9B44DCC1829EF6000857CF8 /* SoapActionsConnectionManager1.h in Headers */ = {isa = PBXBuildFile; fileRef = A9B44D8A1829EF5F00857CF8 /* SoapActionsConnectionManager1.h */; };
+		A9B44DCD1829EF6000857CF8 /* SoapActionsContentDirectory1.h in Headers */ = {isa = PBXBuildFile; fileRef = A9B44D8B1829EF5F00857CF8 /* SoapActionsContentDirectory1.h */; };
+		A9B44DCE1829EF6000857CF8 /* SoapActionsDeviceProtection1.h in Headers */ = {isa = PBXBuildFile; fileRef = A9B44D8C1829EF5F00857CF8 /* SoapActionsDeviceProtection1.h */; };
+		A9B44DCF1829EF6000857CF8 /* SoapActionsDigitalSecurityCameraMotionImage1.h in Headers */ = {isa = PBXBuildFile; fileRef = A9B44D8D1829EF5F00857CF8 /* SoapActionsDigitalSecurityCameraMotionImage1.h */; };
+		A9B44DD01829EF6000857CF8 /* SoapActionsDigitalSecurityCameraSettings1.h in Headers */ = {isa = PBXBuildFile; fileRef = A9B44D8E1829EF5F00857CF8 /* SoapActionsDigitalSecurityCameraSettings1.h */; };
+		A9B44DD11829EF6000857CF8 /* SoapActionsDigitalSecurityCameraStillImage1.h in Headers */ = {isa = PBXBuildFile; fileRef = A9B44D8F1829EF5F00857CF8 /* SoapActionsDigitalSecurityCameraStillImage1.h */; };
+		A9B44DD21829EF6000857CF8 /* SoapActionsDimming1.h in Headers */ = {isa = PBXBuildFile; fileRef = A9B44D901829EF5F00857CF8 /* SoapActionsDimming1.h */; };
+		A9B44DD31829EF6000857CF8 /* SoapActionsInputConfig1.h in Headers */ = {isa = PBXBuildFile; fileRef = A9B44D911829EF5F00857CF8 /* SoapActionsInputConfig1.h */; };
+		A9B44DD41829EF6000857CF8 /* SoapActionsLANHostConfigManagement1.h in Headers */ = {isa = PBXBuildFile; fileRef = A9B44D921829EF5F00857CF8 /* SoapActionsLANHostConfigManagement1.h */; };
+		A9B44DD51829EF6000857CF8 /* SoapActionsLayer3Forwarding1.h in Headers */ = {isa = PBXBuildFile; fileRef = A9B44D931829EF5F00857CF8 /* SoapActionsLayer3Forwarding1.h */; };
+		A9B44DD61829EF6000857CF8 /* SoapActionsMediaManagement1.h in Headers */ = {isa = PBXBuildFile; fileRef = A9B44D941829EF5F00857CF8 /* SoapActionsMediaManagement1.h */; };
+		A9B44DD71829EF6000857CF8 /* SoapActionsMessaging1.h in Headers */ = {isa = PBXBuildFile; fileRef = A9B44D951829EF5F00857CF8 /* SoapActionsMessaging1.h */; };
+		A9B44DD81829EF6000857CF8 /* SoapActionsRendering.h in Headers */ = {isa = PBXBuildFile; fileRef = A9B44D961829EF5F00857CF8 /* SoapActionsRendering.h */; };
+		A9B44DD91829EF6000857CF8 /* SoapActionsRenderingControl1.h in Headers */ = {isa = PBXBuildFile; fileRef = A9B44D971829EF5F00857CF8 /* SoapActionsRenderingControl1.h */; };
+		A9B44DDA1829EF6000857CF8 /* SoapActionsSwitchPower1.h in Headers */ = {isa = PBXBuildFile; fileRef = A9B44D981829EF5F00857CF8 /* SoapActionsSwitchPower1.h */; };
+		A9B44DDB1829EF6000857CF8 /* SoapActionsWANCableLinkConfig1.h in Headers */ = {isa = PBXBuildFile; fileRef = A9B44D991829EF5F00857CF8 /* SoapActionsWANCableLinkConfig1.h */; };
+		A9B44DDC1829EF6000857CF8 /* SoapActionsWANCommonInterfaceConfig1.h in Headers */ = {isa = PBXBuildFile; fileRef = A9B44D9A1829EF5F00857CF8 /* SoapActionsWANCommonInterfaceConfig1.h */; };
+		A9B44DDD1829EF6000857CF8 /* SoapActionsWANDSLLinkConfig1.h in Headers */ = {isa = PBXBuildFile; fileRef = A9B44D9B1829EF5F00857CF8 /* SoapActionsWANDSLLinkConfig1.h */; };
+		A9B44DDE1829EF6000857CF8 /* SoapActionsWANEthernetLinkConfig1.h in Headers */ = {isa = PBXBuildFile; fileRef = A9B44D9C1829EF5F00857CF8 /* SoapActionsWANEthernetLinkConfig1.h */; };
+		A9B44DDF1829EF6000857CF8 /* SoapActionsWANIPConnection1.h in Headers */ = {isa = PBXBuildFile; fileRef = A9B44D9D1829EF6000857CF8 /* SoapActionsWANIPConnection1.h */; };
+		A9B44DE01829EF6000857CF8 /* SoapActionsWANIPConnection2.h in Headers */ = {isa = PBXBuildFile; fileRef = A9B44D9E1829EF6000857CF8 /* SoapActionsWANIPConnection2.h */; };
+		A9B44DE11829EF6000857CF8 /* SoapActionsWANIPv6FirewallControl1.h in Headers */ = {isa = PBXBuildFile; fileRef = A9B44D9F1829EF6000857CF8 /* SoapActionsWANIPv6FirewallControl1.h */; };
+		A9B44DE21829EF6000857CF8 /* SoapActionsWANPOTSLinkConfig1.h in Headers */ = {isa = PBXBuildFile; fileRef = A9B44DA01829EF6000857CF8 /* SoapActionsWANPOTSLinkConfig1.h */; };
+		A9B44DE31829EF6000857CF8 /* SoapActionsWANPPPConnection1.h in Headers */ = {isa = PBXBuildFile; fileRef = A9B44DA11829EF6000857CF8 /* SoapActionsWANPPPConnection1.h */; };
+		A9B44DE41829EF6000857CF8 /* SSDPDB_ObjC.h in Headers */ = {isa = PBXBuildFile; fileRef = A9B44DA21829EF6000857CF8 /* SSDPDB_ObjC.h */; };
+		A9B44DE51829EF6000857CF8 /* StateVariable.h in Headers */ = {isa = PBXBuildFile; fileRef = A9B44DA31829EF6000857CF8 /* StateVariable.h */; };
+		A9B44DE61829EF6000857CF8 /* StateVariableList.h in Headers */ = {isa = PBXBuildFile; fileRef = A9B44DA41829EF6000857CF8 /* StateVariableList.h */; };
+		A9B44DE71829EF6000857CF8 /* StateVariableRange.h in Headers */ = {isa = PBXBuildFile; fileRef = A9B44DA51829EF6000857CF8 /* StateVariableRange.h */; };
+		A9B44DE81829EF6000857CF8 /* TelephonyClient1Device.h in Headers */ = {isa = PBXBuildFile; fileRef = A9B44DA61829EF6000857CF8 /* TelephonyClient1Device.h */; };
+		A9B44DE91829EF6000857CF8 /* TelephonyServer1Device.h in Headers */ = {isa = PBXBuildFile; fileRef = A9B44DA71829EF6000857CF8 /* TelephonyServer1Device.h */; };
+		A9B44DEA1829EF6000857CF8 /* UPnPDB.h in Headers */ = {isa = PBXBuildFile; fileRef = A9B44DA81829EF6000857CF8 /* UPnPDB.h */; };
+		A9B44DEB1829EF6000857CF8 /* UPnPEventParser.h in Headers */ = {isa = PBXBuildFile; fileRef = A9B44DA91829EF6000857CF8 /* UPnPEventParser.h */; };
+		A9B44DEC1829EF6000857CF8 /* UPnPEvents.h in Headers */ = {isa = PBXBuildFile; fileRef = A9B44DAA1829EF6000857CF8 /* UPnPEvents.h */; };
+		A9B44DED1829EF6000857CF8 /* UPnPManager.h in Headers */ = {isa = PBXBuildFile; fileRef = A9B44DAB1829EF6000857CF8 /* UPnPManager.h */; };
+		A9B44DEE1829EF6000857CF8 /* WAN2Device.h in Headers */ = {isa = PBXBuildFile; fileRef = A9B44DAC1829EF6000857CF8 /* WAN2Device.h */; };
+		A9B44DEF1829EF6000857CF8 /* WANConnection1Device.h in Headers */ = {isa = PBXBuildFile; fileRef = A9B44DAD1829EF6000857CF8 /* WANConnection1Device.h */; };
+		A9B44DF01829EF6000857CF8 /* WANConnection2Device.h in Headers */ = {isa = PBXBuildFile; fileRef = A9B44DAE1829EF6000857CF8 /* WANConnection2Device.h */; };
+		A9B44DF41829EFB000857CF8 /* iphoneport.h in Headers */ = {isa = PBXBuildFile; fileRef = A9B44DF31829EFB000857CF8 /* iphoneport.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		15BAC4F4132C22BA00F5C41A /* libupnpx.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libupnpx.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		15BAC4F7132C22BA00F5C41A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A9B44BEE1829EE2800857CF8 /* osal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = osal.h; sourceTree = "<group>"; };
+		A9B44BEF1829EE2800857CF8 /* tools.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tools.cpp; sourceTree = "<group>"; };
+		A9B44BF01829EE2800857CF8 /* tools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = tools.h; sourceTree = "<group>"; };
+		A9B44BF21829EE2800857CF8 /* basichttpobserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = basichttpobserver.h; sourceTree = "<group>"; };
+		A9B44BF31829EE2800857CF8 /* basichttpserver.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = basichttpserver.cpp; sourceTree = "<group>"; };
+		A9B44BF41829EE2800857CF8 /* basichttpserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = basichttpserver.h; sourceTree = "<group>"; };
+		A9B44BF51829EE2800857CF8 /* BasicHTTPServer_ObjC.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = BasicHTTPServer_ObjC.mm; sourceTree = "<group>"; };
+		A9B44BF61829EE2800857CF8 /* httpsession.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = httpsession.cpp; sourceTree = "<group>"; };
+		A9B44BF71829EE2800857CF8 /* httpsession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = httpsession.h; sourceTree = "<group>"; };
+		A9B44BF81829EE2800857CF8 /* socketserver.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = socketserver.cpp; sourceTree = "<group>"; };
+		A9B44BF91829EE2800857CF8 /* socketserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = socketserver.h; sourceTree = "<group>"; };
+		A9B44BFA1829EE2800857CF8 /* SocketServer_ObjC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SocketServer_ObjC.h; sourceTree = "<group>"; };
+		A9B44BFB1829EE2800857CF8 /* SocketServer_ObjC.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = SocketServer_ObjC.mm; sourceTree = "<group>"; };
+		A9B44BFC1829EE2800857CF8 /* socketserverconnection.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = socketserverconnection.cpp; sourceTree = "<group>"; };
+		A9B44BFD1829EE2800857CF8 /* socketserverconnection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = socketserverconnection.h; sourceTree = "<group>"; };
+		A9B44BFE1829EE2800857CF8 /* socketServerobserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = socketServerobserver.h; sourceTree = "<group>"; };
+		A9B44C071829EE2800857CF8 /* main.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = main.mm; sourceTree = "<group>"; };
+		A9B44C081829EE2800857CF8 /* ssdp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ssdp.cpp; sourceTree = "<group>"; };
+		A9B44C091829EE2800857CF8 /* ssdp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ssdp.h; sourceTree = "<group>"; };
+		A9B44C0A1829EE2800857CF8 /* ssdpdb.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ssdpdb.cpp; sourceTree = "<group>"; };
+		A9B44C0B1829EE2800857CF8 /* ssdpdb.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ssdpdb.h; sourceTree = "<group>"; };
+		A9B44C0C1829EE2800857CF8 /* SSDPDB_ObjC.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = SSDPDB_ObjC.mm; sourceTree = "<group>"; };
+		A9B44C0D1829EE2800857CF8 /* ssdpdbdevice.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ssdpdbdevice.cpp; sourceTree = "<group>"; };
+		A9B44C0E1829EE2800857CF8 /* ssdpdbdevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ssdpdbdevice.h; sourceTree = "<group>"; };
+		A9B44C0F1829EE2800857CF8 /* ssdpdbobserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ssdpdbobserver.h; sourceTree = "<group>"; };
+		A9B44C101829EE2800857CF8 /* ssdphttp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ssdphttp.cpp; sourceTree = "<group>"; };
+		A9B44C111829EE2800857CF8 /* ssdphttp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ssdphttp.h; sourceTree = "<group>"; };
+		A9B44C121829EE2800857CF8 /* ssdpmessage.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ssdpmessage.cpp; sourceTree = "<group>"; };
+		A9B44C131829EE2800857CF8 /* ssdpmessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ssdpmessage.h; sourceTree = "<group>"; };
+		A9B44C141829EE2800857CF8 /* ssdpmsearch.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ssdpmsearch.cpp; sourceTree = "<group>"; };
+		A9B44C151829EE2800857CF8 /* ssdpmsearch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ssdpmsearch.h; sourceTree = "<group>"; };
+		A9B44C161829EE2800857CF8 /* ssdpnotify.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ssdpnotify.cpp; sourceTree = "<group>"; };
+		A9B44C171829EE2800857CF8 /* ssdpnotify.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ssdpnotify.h; sourceTree = "<group>"; };
+		A9B44C181829EE2800857CF8 /* ssdpnotifyalive.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ssdpnotifyalive.cpp; sourceTree = "<group>"; };
+		A9B44C191829EE2800857CF8 /* ssdpnotifyalive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ssdpnotifyalive.h; sourceTree = "<group>"; };
+		A9B44C1A1829EE2800857CF8 /* ssdpnotifybye.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ssdpnotifybye.cpp; sourceTree = "<group>"; };
+		A9B44C1B1829EE2800857CF8 /* ssdpnotifybye.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ssdpnotifybye.h; sourceTree = "<group>"; };
+		A9B44C1C1829EE2800857CF8 /* ssdpnotifyupdate.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ssdpnotifyupdate.cpp; sourceTree = "<group>"; };
+		A9B44C1D1829EE2800857CF8 /* ssdpnotifyupdate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ssdpnotifyupdate.h; sourceTree = "<group>"; };
+		A9B44C1E1829EE2800857CF8 /* ssdpobserver.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ssdpobserver.h; sourceTree = "<group>"; };
+		A9B44C1F1829EE2800857CF8 /* ssdpparser.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ssdpparser.cpp; sourceTree = "<group>"; };
+		A9B44C201829EE2800857CF8 /* ssdpparser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ssdpparser.h; sourceTree = "<group>"; };
+		A9B44C211829EE2800857CF8 /* ssdpsearchreq.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ssdpsearchreq.cpp; sourceTree = "<group>"; };
+		A9B44C221829EE2800857CF8 /* ssdpsearchreq.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ssdpsearchreq.h; sourceTree = "<group>"; };
+		A9B44C231829EE2800857CF8 /* ssdpsearchresp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ssdpsearchresp.cpp; sourceTree = "<group>"; };
+		A9B44C241829EE2800857CF8 /* ssdpsearchresp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ssdpsearchresp.h; sourceTree = "<group>"; };
+		A9B44C251829EE2800857CF8 /* ssdptools.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ssdptools.cpp; sourceTree = "<group>"; };
+		A9B44C261829EE2800857CF8 /* ssdptools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ssdptools.h; sourceTree = "<group>"; };
+		A9B44C271829EE2800857CF8 /* upnp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = upnp.cpp; sourceTree = "<group>"; };
+		A9B44C281829EE2800857CF8 /* upnp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = upnp.h; sourceTree = "<group>"; };
+		A9B44C2B1829EE2800857CF8 /* BasicDeviceParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasicDeviceParser.m; sourceTree = "<group>"; };
+		A9B44C2C1829EE2800857CF8 /* BasicParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasicParser.m; sourceTree = "<group>"; };
+		A9B44C2D1829EE2800857CF8 /* BasicParserAsset.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasicParserAsset.m; sourceTree = "<group>"; };
+		A9B44C2E1829EE2800857CF8 /* BasicServiceParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasicServiceParser.m; sourceTree = "<group>"; };
+		A9B44C2F1829EE2800857CF8 /* BasicUPnPDevice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasicUPnPDevice.m; sourceTree = "<group>"; };
+		A9B44C301829EE2800857CF8 /* BasicUPnPService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasicUPnPService.m; sourceTree = "<group>"; };
+		A9B44C311829EE2800857CF8 /* BinaryLight1Device.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BinaryLight1Device.m; sourceTree = "<group>"; };
+		A9B44C321829EE2800857CF8 /* CocoaTools.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CocoaTools.m; sourceTree = "<group>"; };
+		A9B44C331829EE2800857CF8 /* DeviceFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeviceFactory.m; sourceTree = "<group>"; };
+		A9B44C341829EE2800857CF8 /* DigitalSecurityCamera1Device.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DigitalSecurityCamera1Device.m; sourceTree = "<group>"; };
+		A9B44C351829EE2800857CF8 /* DimmableLigh1tDevice.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DimmableLigh1tDevice.m; sourceTree = "<group>"; };
+		A9B44C361829EE2800857CF8 /* InternetGateway2Device.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InternetGateway2Device.m; sourceTree = "<group>"; };
+		A9B44C371829EE2800857CF8 /* LAN1Device.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LAN1Device.m; sourceTree = "<group>"; };
+		A9B44C381829EE2800857CF8 /* LastChangeParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LastChangeParser.m; sourceTree = "<group>"; };
+		A9B44C391829EE2800857CF8 /* MediaPlaylist.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MediaPlaylist.m; sourceTree = "<group>"; };
+		A9B44C3A1829EE2800857CF8 /* MediaRenderer1Device.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MediaRenderer1Device.m; sourceTree = "<group>"; };
+		A9B44C3B1829EE2800857CF8 /* MediaServer1BasicObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MediaServer1BasicObject.m; sourceTree = "<group>"; };
+		A9B44C3C1829EE2800857CF8 /* MediaServer1ContainerObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MediaServer1ContainerObject.m; sourceTree = "<group>"; };
+		A9B44C3D1829EE2800857CF8 /* MediaServer1Device.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MediaServer1Device.m; sourceTree = "<group>"; };
+		A9B44C3E1829EE2800857CF8 /* MediaServer1ItemObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MediaServer1ItemObject.m; sourceTree = "<group>"; };
+		A9B44C3F1829EE2800857CF8 /* MediaServer1ItemRes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MediaServer1ItemRes.m; sourceTree = "<group>"; };
+		A9B44C401829EE2800857CF8 /* MediaServerBasicObjectParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MediaServerBasicObjectParser.m; sourceTree = "<group>"; };
+		A9B44C411829EE2800857CF8 /* OrderedDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OrderedDictionary.h; sourceTree = "<group>"; };
+		A9B44C421829EE2800857CF8 /* OrderedDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OrderedDictionary.m; sourceTree = "<group>"; };
+		A9B44C431829EE2800857CF8 /* ServiceFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ServiceFactory.m; sourceTree = "<group>"; };
+		A9B44C441829EE2800857CF8 /* SoapAction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoapAction.m; sourceTree = "<group>"; };
+		A9B44C451829EE2800857CF8 /* SoapActionFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoapActionFactory.m; sourceTree = "<group>"; };
+		A9B44C461829EE2800857CF8 /* SoapActionsAVTransport1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoapActionsAVTransport1.m; sourceTree = "<group>"; };
+		A9B44C471829EE2800857CF8 /* SoapActionsCallManagement1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoapActionsCallManagement1.m; sourceTree = "<group>"; };
+		A9B44C481829EE2800857CF8 /* SoapActionsConfigurationManagement1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoapActionsConfigurationManagement1.m; sourceTree = "<group>"; };
+		A9B44C491829EE2800857CF8 /* SoapActionsConnectionManager1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoapActionsConnectionManager1.m; sourceTree = "<group>"; };
+		A9B44C4A1829EE2800857CF8 /* SoapActionsContentDirectory1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoapActionsContentDirectory1.m; sourceTree = "<group>"; };
+		A9B44C4B1829EE2800857CF8 /* SoapActionsDeviceProtection1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoapActionsDeviceProtection1.m; sourceTree = "<group>"; };
+		A9B44C4C1829EE2800857CF8 /* SoapActionsDigitalSecurityCameraMotionImage1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoapActionsDigitalSecurityCameraMotionImage1.m; sourceTree = "<group>"; };
+		A9B44C4D1829EE2800857CF8 /* SoapActionsDigitalSecurityCameraSettings1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoapActionsDigitalSecurityCameraSettings1.m; sourceTree = "<group>"; };
+		A9B44C4E1829EE2800857CF8 /* SoapActionsDigitalSecurityCameraStillImage1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoapActionsDigitalSecurityCameraStillImage1.m; sourceTree = "<group>"; };
+		A9B44C4F1829EE2800857CF8 /* SoapActionsDimming1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoapActionsDimming1.m; sourceTree = "<group>"; };
+		A9B44C501829EE2800857CF8 /* SoapActionsInputConfig1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoapActionsInputConfig1.m; sourceTree = "<group>"; };
+		A9B44C511829EE2800857CF8 /* SoapActionsLANHostConfigManagement1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoapActionsLANHostConfigManagement1.m; sourceTree = "<group>"; };
+		A9B44C521829EE2800857CF8 /* SoapActionsLayer3Forwarding1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoapActionsLayer3Forwarding1.m; sourceTree = "<group>"; };
+		A9B44C531829EE2800857CF8 /* SoapActionsMediaManagement1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoapActionsMediaManagement1.m; sourceTree = "<group>"; };
+		A9B44C541829EE2800857CF8 /* SoapActionsMessaging1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoapActionsMessaging1.m; sourceTree = "<group>"; };
+		A9B44C551829EE2800857CF8 /* SoapActionsRendering.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoapActionsRendering.m; sourceTree = "<group>"; };
+		A9B44C561829EE2800857CF8 /* SoapActionsRenderingControl1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoapActionsRenderingControl1.m; sourceTree = "<group>"; };
+		A9B44C571829EE2800857CF8 /* SoapActionsSwitchPower1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoapActionsSwitchPower1.m; sourceTree = "<group>"; };
+		A9B44C581829EE2800857CF8 /* SoapActionsWANCableLinkConfig1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoapActionsWANCableLinkConfig1.m; sourceTree = "<group>"; };
+		A9B44C591829EE2800857CF8 /* SoapActionsWANCommonInterfaceConfig1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoapActionsWANCommonInterfaceConfig1.m; sourceTree = "<group>"; };
+		A9B44C5A1829EE2800857CF8 /* SoapActionsWANDSLLinkConfig1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoapActionsWANDSLLinkConfig1.m; sourceTree = "<group>"; };
+		A9B44C5B1829EE2800857CF8 /* SoapActionsWANEthernetLinkConfig1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoapActionsWANEthernetLinkConfig1.m; sourceTree = "<group>"; };
+		A9B44C5C1829EE2800857CF8 /* SoapActionsWANIPConnection1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoapActionsWANIPConnection1.m; sourceTree = "<group>"; };
+		A9B44C5D1829EE2800857CF8 /* SoapActionsWANIPConnection2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoapActionsWANIPConnection2.m; sourceTree = "<group>"; };
+		A9B44C5E1829EE2800857CF8 /* SoapActionsWANIPv6FirewallControl1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoapActionsWANIPv6FirewallControl1.m; sourceTree = "<group>"; };
+		A9B44C5F1829EE2800857CF8 /* SoapActionsWANPOTSLinkConfig1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoapActionsWANPOTSLinkConfig1.m; sourceTree = "<group>"; };
+		A9B44C601829EE2800857CF8 /* SoapActionsWANPPPConnection1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SoapActionsWANPPPConnection1.m; sourceTree = "<group>"; };
+		A9B44C611829EE2800857CF8 /* StateVariable.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StateVariable.m; sourceTree = "<group>"; };
+		A9B44C621829EE2800857CF8 /* StateVariableList.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StateVariableList.m; sourceTree = "<group>"; };
+		A9B44C631829EE2800857CF8 /* StateVariableRange.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = StateVariableRange.m; sourceTree = "<group>"; };
+		A9B44C641829EE2800857CF8 /* TelephonyClient1Device.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TelephonyClient1Device.m; sourceTree = "<group>"; };
+		A9B44C651829EE2800857CF8 /* TelephonyServer1Device.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TelephonyServer1Device.m; sourceTree = "<group>"; };
+		A9B44C661829EE2800857CF8 /* UPnPDB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UPnPDB.m; sourceTree = "<group>"; };
+		A9B44C671829EE2800857CF8 /* UPnPEventParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UPnPEventParser.m; sourceTree = "<group>"; };
+		A9B44C681829EE2800857CF8 /* UPnPEvents.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UPnPEvents.m; sourceTree = "<group>"; };
+		A9B44C691829EE2800857CF8 /* UPnPManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UPnPManager.m; sourceTree = "<group>"; };
+		A9B44C6A1829EE2800857CF8 /* WAN2Device.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WAN2Device.m; sourceTree = "<group>"; };
+		A9B44C6B1829EE2800857CF8 /* WANConnection1Device.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WANConnection1Device.m; sourceTree = "<group>"; };
+		A9B44C6C1829EE2800857CF8 /* WANConnection2Device.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WANConnection2Device.m; sourceTree = "<group>"; };
+		A9B44CE41829EE7800857CF8 /* upnpx-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "upnpx-Prefix.pch"; sourceTree = SOURCE_ROOT; };
+		A9B44D6D1829EF5F00857CF8 /* BasicDeviceParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasicDeviceParser.h; sourceTree = "<group>"; };
+		A9B44D6E1829EF5F00857CF8 /* BasicHTTPServer_ObjC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasicHTTPServer_ObjC.h; sourceTree = "<group>"; };
+		A9B44D6F1829EF5F00857CF8 /* BasicParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasicParser.h; sourceTree = "<group>"; };
+		A9B44D701829EF5F00857CF8 /* BasicParserAsset.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasicParserAsset.h; sourceTree = "<group>"; };
+		A9B44D711829EF5F00857CF8 /* BasicServiceParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasicServiceParser.h; sourceTree = "<group>"; };
+		A9B44D721829EF5F00857CF8 /* BasicUPnPDevice.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasicUPnPDevice.h; sourceTree = "<group>"; };
+		A9B44D731829EF5F00857CF8 /* BasicUPnPService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasicUPnPService.h; sourceTree = "<group>"; };
+		A9B44D741829EF5F00857CF8 /* BinaryLight1Device.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BinaryLight1Device.h; sourceTree = "<group>"; };
+		A9B44D751829EF5F00857CF8 /* CocoaTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CocoaTools.h; sourceTree = "<group>"; };
+		A9B44D761829EF5F00857CF8 /* DeviceFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceFactory.h; sourceTree = "<group>"; };
+		A9B44D771829EF5F00857CF8 /* DigitalSecurityCamera1Device.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DigitalSecurityCamera1Device.h; sourceTree = "<group>"; };
+		A9B44D781829EF5F00857CF8 /* DimmableLight1Device.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DimmableLight1Device.h; sourceTree = "<group>"; };
+		A9B44D791829EF5F00857CF8 /* InternetGateway2Device.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InternetGateway2Device.h; sourceTree = "<group>"; };
+		A9B44D7A1829EF5F00857CF8 /* LAN1Device.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LAN1Device.h; sourceTree = "<group>"; };
+		A9B44D7B1829EF5F00857CF8 /* LastChangeParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LastChangeParser.h; sourceTree = "<group>"; };
+		A9B44D7C1829EF5F00857CF8 /* MediaPlaylist.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MediaPlaylist.h; sourceTree = "<group>"; };
+		A9B44D7D1829EF5F00857CF8 /* MediaRenderer1Device.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MediaRenderer1Device.h; sourceTree = "<group>"; };
+		A9B44D7E1829EF5F00857CF8 /* MediaServer1BasicObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MediaServer1BasicObject.h; sourceTree = "<group>"; };
+		A9B44D7F1829EF5F00857CF8 /* MediaServer1ContainerObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MediaServer1ContainerObject.h; sourceTree = "<group>"; };
+		A9B44D801829EF5F00857CF8 /* MediaServer1Device.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MediaServer1Device.h; sourceTree = "<group>"; };
+		A9B44D811829EF5F00857CF8 /* MediaServer1ItemObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MediaServer1ItemObject.h; sourceTree = "<group>"; };
+		A9B44D821829EF5F00857CF8 /* MediaServer1ItemRes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MediaServer1ItemRes.h; sourceTree = "<group>"; };
+		A9B44D831829EF5F00857CF8 /* MediaServerBasicObjectParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MediaServerBasicObjectParser.h; sourceTree = "<group>"; };
+		A9B44D841829EF5F00857CF8 /* ServiceFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ServiceFactory.h; sourceTree = "<group>"; };
+		A9B44D851829EF5F00857CF8 /* SoapAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoapAction.h; sourceTree = "<group>"; };
+		A9B44D861829EF5F00857CF8 /* SoapActionFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoapActionFactory.h; sourceTree = "<group>"; };
+		A9B44D871829EF5F00857CF8 /* SoapActionsAVTransport1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoapActionsAVTransport1.h; sourceTree = "<group>"; };
+		A9B44D881829EF5F00857CF8 /* SoapActionsCallManagement1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoapActionsCallManagement1.h; sourceTree = "<group>"; };
+		A9B44D891829EF5F00857CF8 /* SoapActionsConfigurationManagement1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoapActionsConfigurationManagement1.h; sourceTree = "<group>"; };
+		A9B44D8A1829EF5F00857CF8 /* SoapActionsConnectionManager1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoapActionsConnectionManager1.h; sourceTree = "<group>"; };
+		A9B44D8B1829EF5F00857CF8 /* SoapActionsContentDirectory1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoapActionsContentDirectory1.h; sourceTree = "<group>"; };
+		A9B44D8C1829EF5F00857CF8 /* SoapActionsDeviceProtection1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoapActionsDeviceProtection1.h; sourceTree = "<group>"; };
+		A9B44D8D1829EF5F00857CF8 /* SoapActionsDigitalSecurityCameraMotionImage1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoapActionsDigitalSecurityCameraMotionImage1.h; sourceTree = "<group>"; };
+		A9B44D8E1829EF5F00857CF8 /* SoapActionsDigitalSecurityCameraSettings1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoapActionsDigitalSecurityCameraSettings1.h; sourceTree = "<group>"; };
+		A9B44D8F1829EF5F00857CF8 /* SoapActionsDigitalSecurityCameraStillImage1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoapActionsDigitalSecurityCameraStillImage1.h; sourceTree = "<group>"; };
+		A9B44D901829EF5F00857CF8 /* SoapActionsDimming1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoapActionsDimming1.h; sourceTree = "<group>"; };
+		A9B44D911829EF5F00857CF8 /* SoapActionsInputConfig1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoapActionsInputConfig1.h; sourceTree = "<group>"; };
+		A9B44D921829EF5F00857CF8 /* SoapActionsLANHostConfigManagement1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoapActionsLANHostConfigManagement1.h; sourceTree = "<group>"; };
+		A9B44D931829EF5F00857CF8 /* SoapActionsLayer3Forwarding1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoapActionsLayer3Forwarding1.h; sourceTree = "<group>"; };
+		A9B44D941829EF5F00857CF8 /* SoapActionsMediaManagement1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoapActionsMediaManagement1.h; sourceTree = "<group>"; };
+		A9B44D951829EF5F00857CF8 /* SoapActionsMessaging1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoapActionsMessaging1.h; sourceTree = "<group>"; };
+		A9B44D961829EF5F00857CF8 /* SoapActionsRendering.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoapActionsRendering.h; sourceTree = "<group>"; };
+		A9B44D971829EF5F00857CF8 /* SoapActionsRenderingControl1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoapActionsRenderingControl1.h; sourceTree = "<group>"; };
+		A9B44D981829EF5F00857CF8 /* SoapActionsSwitchPower1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoapActionsSwitchPower1.h; sourceTree = "<group>"; };
+		A9B44D991829EF5F00857CF8 /* SoapActionsWANCableLinkConfig1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoapActionsWANCableLinkConfig1.h; sourceTree = "<group>"; };
+		A9B44D9A1829EF5F00857CF8 /* SoapActionsWANCommonInterfaceConfig1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoapActionsWANCommonInterfaceConfig1.h; sourceTree = "<group>"; };
+		A9B44D9B1829EF5F00857CF8 /* SoapActionsWANDSLLinkConfig1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoapActionsWANDSLLinkConfig1.h; sourceTree = "<group>"; };
+		A9B44D9C1829EF5F00857CF8 /* SoapActionsWANEthernetLinkConfig1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoapActionsWANEthernetLinkConfig1.h; sourceTree = "<group>"; };
+		A9B44D9D1829EF6000857CF8 /* SoapActionsWANIPConnection1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoapActionsWANIPConnection1.h; sourceTree = "<group>"; };
+		A9B44D9E1829EF6000857CF8 /* SoapActionsWANIPConnection2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoapActionsWANIPConnection2.h; sourceTree = "<group>"; };
+		A9B44D9F1829EF6000857CF8 /* SoapActionsWANIPv6FirewallControl1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoapActionsWANIPv6FirewallControl1.h; sourceTree = "<group>"; };
+		A9B44DA01829EF6000857CF8 /* SoapActionsWANPOTSLinkConfig1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoapActionsWANPOTSLinkConfig1.h; sourceTree = "<group>"; };
+		A9B44DA11829EF6000857CF8 /* SoapActionsWANPPPConnection1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SoapActionsWANPPPConnection1.h; sourceTree = "<group>"; };
+		A9B44DA21829EF6000857CF8 /* SSDPDB_ObjC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSDPDB_ObjC.h; sourceTree = "<group>"; };
+		A9B44DA31829EF6000857CF8 /* StateVariable.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StateVariable.h; sourceTree = "<group>"; };
+		A9B44DA41829EF6000857CF8 /* StateVariableList.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StateVariableList.h; sourceTree = "<group>"; };
+		A9B44DA51829EF6000857CF8 /* StateVariableRange.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StateVariableRange.h; sourceTree = "<group>"; };
+		A9B44DA61829EF6000857CF8 /* TelephonyClient1Device.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TelephonyClient1Device.h; sourceTree = "<group>"; };
+		A9B44DA71829EF6000857CF8 /* TelephonyServer1Device.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TelephonyServer1Device.h; sourceTree = "<group>"; };
+		A9B44DA81829EF6000857CF8 /* UPnPDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPnPDB.h; sourceTree = "<group>"; };
+		A9B44DA91829EF6000857CF8 /* UPnPEventParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPnPEventParser.h; sourceTree = "<group>"; };
+		A9B44DAA1829EF6000857CF8 /* UPnPEvents.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPnPEvents.h; sourceTree = "<group>"; };
+		A9B44DAB1829EF6000857CF8 /* UPnPManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UPnPManager.h; sourceTree = "<group>"; };
+		A9B44DAC1829EF6000857CF8 /* WAN2Device.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WAN2Device.h; sourceTree = "<group>"; };
+		A9B44DAD1829EF6000857CF8 /* WANConnection1Device.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WANConnection1Device.h; sourceTree = "<group>"; };
+		A9B44DAE1829EF6000857CF8 /* WANConnection2Device.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WANConnection2Device.h; sourceTree = "<group>"; };
+		A9B44DF31829EFB000857CF8 /* iphoneport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iphoneport.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		15BAC4F1132C22BA00F5C41A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15BAC4F8132C22BA00F5C41A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		15BAC4E9132C22BA00F5C41A = {
+			isa = PBXGroup;
+			children = (
+				15BAC4F9132C22BA00F5C41A /* upnpx */,
+				15BAC4F6132C22BA00F5C41A /* Frameworks */,
+				15BAC4F5132C22BA00F5C41A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		15BAC4F5132C22BA00F5C41A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				15BAC4F4132C22BA00F5C41A /* libupnpx.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		15BAC4F6132C22BA00F5C41A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				15BAC4F7132C22BA00F5C41A /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		15BAC4F9132C22BA00F5C41A /* upnpx */ = {
+			isa = PBXGroup;
+			children = (
+				A9B44DF11829EFB000857CF8 /* port */,
+				A9B44D6C1829EF5F00857CF8 /* api */,
+				A9B44BED1829EE2800857CF8 /* common */,
+				A9B44BF11829EE2800857CF8 /* eventserver */,
+				A9B44BFF1829EE2800857CF8 /* generator */,
+				A9B44C061829EE2800857CF8 /* ssdp */,
+				A9B44C291829EE2800857CF8 /* unittest */,
+				A9B44C2A1829EE2800857CF8 /* upnp */,
+				15BAC4FA132C22BA00F5C41A /* Supporting Files */,
+			);
+			path = upnpx;
+			sourceTree = "<group>";
+		};
+		15BAC4FA132C22BA00F5C41A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A9B44CE41829EE7800857CF8 /* upnpx-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A9B44BED1829EE2800857CF8 /* common */ = {
+			isa = PBXGroup;
+			children = (
+				A9B44BEE1829EE2800857CF8 /* osal.h */,
+				A9B44BEF1829EE2800857CF8 /* tools.cpp */,
+				A9B44BF01829EE2800857CF8 /* tools.h */,
+			);
+			path = common;
+			sourceTree = SOURCE_ROOT;
+		};
+		A9B44BF11829EE2800857CF8 /* eventserver */ = {
+			isa = PBXGroup;
+			children = (
+				A9B44BF21829EE2800857CF8 /* basichttpobserver.h */,
+				A9B44BF31829EE2800857CF8 /* basichttpserver.cpp */,
+				A9B44BF41829EE2800857CF8 /* basichttpserver.h */,
+				A9B44BF51829EE2800857CF8 /* BasicHTTPServer_ObjC.mm */,
+				A9B44BF61829EE2800857CF8 /* httpsession.cpp */,
+				A9B44BF71829EE2800857CF8 /* httpsession.h */,
+				A9B44BF81829EE2800857CF8 /* socketserver.cpp */,
+				A9B44BF91829EE2800857CF8 /* socketserver.h */,
+				A9B44BFA1829EE2800857CF8 /* SocketServer_ObjC.h */,
+				A9B44BFB1829EE2800857CF8 /* SocketServer_ObjC.mm */,
+				A9B44BFC1829EE2800857CF8 /* socketserverconnection.cpp */,
+				A9B44BFD1829EE2800857CF8 /* socketserverconnection.h */,
+				A9B44BFE1829EE2800857CF8 /* socketServerobserver.h */,
+			);
+			path = eventserver;
+			sourceTree = SOURCE_ROOT;
+		};
+		A9B44BFF1829EE2800857CF8 /* generator */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = generator;
+			sourceTree = SOURCE_ROOT;
+		};
+		A9B44C061829EE2800857CF8 /* ssdp */ = {
+			isa = PBXGroup;
+			children = (
+				A9B44C071829EE2800857CF8 /* main.mm */,
+				A9B44C081829EE2800857CF8 /* ssdp.cpp */,
+				A9B44C091829EE2800857CF8 /* ssdp.h */,
+				A9B44C0A1829EE2800857CF8 /* ssdpdb.cpp */,
+				A9B44C0B1829EE2800857CF8 /* ssdpdb.h */,
+				A9B44C0C1829EE2800857CF8 /* SSDPDB_ObjC.mm */,
+				A9B44C0D1829EE2800857CF8 /* ssdpdbdevice.cpp */,
+				A9B44C0E1829EE2800857CF8 /* ssdpdbdevice.h */,
+				A9B44C0F1829EE2800857CF8 /* ssdpdbobserver.h */,
+				A9B44C101829EE2800857CF8 /* ssdphttp.cpp */,
+				A9B44C111829EE2800857CF8 /* ssdphttp.h */,
+				A9B44C121829EE2800857CF8 /* ssdpmessage.cpp */,
+				A9B44C131829EE2800857CF8 /* ssdpmessage.h */,
+				A9B44C141829EE2800857CF8 /* ssdpmsearch.cpp */,
+				A9B44C151829EE2800857CF8 /* ssdpmsearch.h */,
+				A9B44C161829EE2800857CF8 /* ssdpnotify.cpp */,
+				A9B44C171829EE2800857CF8 /* ssdpnotify.h */,
+				A9B44C181829EE2800857CF8 /* ssdpnotifyalive.cpp */,
+				A9B44C191829EE2800857CF8 /* ssdpnotifyalive.h */,
+				A9B44C1A1829EE2800857CF8 /* ssdpnotifybye.cpp */,
+				A9B44C1B1829EE2800857CF8 /* ssdpnotifybye.h */,
+				A9B44C1C1829EE2800857CF8 /* ssdpnotifyupdate.cpp */,
+				A9B44C1D1829EE2800857CF8 /* ssdpnotifyupdate.h */,
+				A9B44C1E1829EE2800857CF8 /* ssdpobserver.h */,
+				A9B44C1F1829EE2800857CF8 /* ssdpparser.cpp */,
+				A9B44C201829EE2800857CF8 /* ssdpparser.h */,
+				A9B44C211829EE2800857CF8 /* ssdpsearchreq.cpp */,
+				A9B44C221829EE2800857CF8 /* ssdpsearchreq.h */,
+				A9B44C231829EE2800857CF8 /* ssdpsearchresp.cpp */,
+				A9B44C241829EE2800857CF8 /* ssdpsearchresp.h */,
+				A9B44C251829EE2800857CF8 /* ssdptools.cpp */,
+				A9B44C261829EE2800857CF8 /* ssdptools.h */,
+				A9B44C271829EE2800857CF8 /* upnp.cpp */,
+				A9B44C281829EE2800857CF8 /* upnp.h */,
+			);
+			path = ssdp;
+			sourceTree = SOURCE_ROOT;
+		};
+		A9B44C291829EE2800857CF8 /* unittest */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = unittest;
+			sourceTree = SOURCE_ROOT;
+		};
+		A9B44C2A1829EE2800857CF8 /* upnp */ = {
+			isa = PBXGroup;
+			children = (
+				A9B44C2B1829EE2800857CF8 /* BasicDeviceParser.m */,
+				A9B44C2C1829EE2800857CF8 /* BasicParser.m */,
+				A9B44C2D1829EE2800857CF8 /* BasicParserAsset.m */,
+				A9B44C2E1829EE2800857CF8 /* BasicServiceParser.m */,
+				A9B44C2F1829EE2800857CF8 /* BasicUPnPDevice.m */,
+				A9B44C301829EE2800857CF8 /* BasicUPnPService.m */,
+				A9B44C311829EE2800857CF8 /* BinaryLight1Device.m */,
+				A9B44C321829EE2800857CF8 /* CocoaTools.m */,
+				A9B44C331829EE2800857CF8 /* DeviceFactory.m */,
+				A9B44C341829EE2800857CF8 /* DigitalSecurityCamera1Device.m */,
+				A9B44C351829EE2800857CF8 /* DimmableLigh1tDevice.m */,
+				A9B44C361829EE2800857CF8 /* InternetGateway2Device.m */,
+				A9B44C371829EE2800857CF8 /* LAN1Device.m */,
+				A9B44C381829EE2800857CF8 /* LastChangeParser.m */,
+				A9B44C391829EE2800857CF8 /* MediaPlaylist.m */,
+				A9B44C3A1829EE2800857CF8 /* MediaRenderer1Device.m */,
+				A9B44C3B1829EE2800857CF8 /* MediaServer1BasicObject.m */,
+				A9B44C3C1829EE2800857CF8 /* MediaServer1ContainerObject.m */,
+				A9B44C3D1829EE2800857CF8 /* MediaServer1Device.m */,
+				A9B44C3E1829EE2800857CF8 /* MediaServer1ItemObject.m */,
+				A9B44C3F1829EE2800857CF8 /* MediaServer1ItemRes.m */,
+				A9B44C401829EE2800857CF8 /* MediaServerBasicObjectParser.m */,
+				A9B44C411829EE2800857CF8 /* OrderedDictionary.h */,
+				A9B44C421829EE2800857CF8 /* OrderedDictionary.m */,
+				A9B44C431829EE2800857CF8 /* ServiceFactory.m */,
+				A9B44C441829EE2800857CF8 /* SoapAction.m */,
+				A9B44C451829EE2800857CF8 /* SoapActionFactory.m */,
+				A9B44C461829EE2800857CF8 /* SoapActionsAVTransport1.m */,
+				A9B44C471829EE2800857CF8 /* SoapActionsCallManagement1.m */,
+				A9B44C481829EE2800857CF8 /* SoapActionsConfigurationManagement1.m */,
+				A9B44C491829EE2800857CF8 /* SoapActionsConnectionManager1.m */,
+				A9B44C4A1829EE2800857CF8 /* SoapActionsContentDirectory1.m */,
+				A9B44C4B1829EE2800857CF8 /* SoapActionsDeviceProtection1.m */,
+				A9B44C4C1829EE2800857CF8 /* SoapActionsDigitalSecurityCameraMotionImage1.m */,
+				A9B44C4D1829EE2800857CF8 /* SoapActionsDigitalSecurityCameraSettings1.m */,
+				A9B44C4E1829EE2800857CF8 /* SoapActionsDigitalSecurityCameraStillImage1.m */,
+				A9B44C4F1829EE2800857CF8 /* SoapActionsDimming1.m */,
+				A9B44C501829EE2800857CF8 /* SoapActionsInputConfig1.m */,
+				A9B44C511829EE2800857CF8 /* SoapActionsLANHostConfigManagement1.m */,
+				A9B44C521829EE2800857CF8 /* SoapActionsLayer3Forwarding1.m */,
+				A9B44C531829EE2800857CF8 /* SoapActionsMediaManagement1.m */,
+				A9B44C541829EE2800857CF8 /* SoapActionsMessaging1.m */,
+				A9B44C551829EE2800857CF8 /* SoapActionsRendering.m */,
+				A9B44C561829EE2800857CF8 /* SoapActionsRenderingControl1.m */,
+				A9B44C571829EE2800857CF8 /* SoapActionsSwitchPower1.m */,
+				A9B44C581829EE2800857CF8 /* SoapActionsWANCableLinkConfig1.m */,
+				A9B44C591829EE2800857CF8 /* SoapActionsWANCommonInterfaceConfig1.m */,
+				A9B44C5A1829EE2800857CF8 /* SoapActionsWANDSLLinkConfig1.m */,
+				A9B44C5B1829EE2800857CF8 /* SoapActionsWANEthernetLinkConfig1.m */,
+				A9B44C5C1829EE2800857CF8 /* SoapActionsWANIPConnection1.m */,
+				A9B44C5D1829EE2800857CF8 /* SoapActionsWANIPConnection2.m */,
+				A9B44C5E1829EE2800857CF8 /* SoapActionsWANIPv6FirewallControl1.m */,
+				A9B44C5F1829EE2800857CF8 /* SoapActionsWANPOTSLinkConfig1.m */,
+				A9B44C601829EE2800857CF8 /* SoapActionsWANPPPConnection1.m */,
+				A9B44C611829EE2800857CF8 /* StateVariable.m */,
+				A9B44C621829EE2800857CF8 /* StateVariableList.m */,
+				A9B44C631829EE2800857CF8 /* StateVariableRange.m */,
+				A9B44C641829EE2800857CF8 /* TelephonyClient1Device.m */,
+				A9B44C651829EE2800857CF8 /* TelephonyServer1Device.m */,
+				A9B44C661829EE2800857CF8 /* UPnPDB.m */,
+				A9B44C671829EE2800857CF8 /* UPnPEventParser.m */,
+				A9B44C681829EE2800857CF8 /* UPnPEvents.m */,
+				A9B44C691829EE2800857CF8 /* UPnPManager.m */,
+				A9B44C6A1829EE2800857CF8 /* WAN2Device.m */,
+				A9B44C6B1829EE2800857CF8 /* WANConnection1Device.m */,
+				A9B44C6C1829EE2800857CF8 /* WANConnection2Device.m */,
+			);
+			path = upnp;
+			sourceTree = SOURCE_ROOT;
+		};
+		A9B44D6C1829EF5F00857CF8 /* api */ = {
+			isa = PBXGroup;
+			children = (
+				A9B44D6D1829EF5F00857CF8 /* BasicDeviceParser.h */,
+				A9B44D6E1829EF5F00857CF8 /* BasicHTTPServer_ObjC.h */,
+				A9B44D6F1829EF5F00857CF8 /* BasicParser.h */,
+				A9B44D701829EF5F00857CF8 /* BasicParserAsset.h */,
+				A9B44D711829EF5F00857CF8 /* BasicServiceParser.h */,
+				A9B44D721829EF5F00857CF8 /* BasicUPnPDevice.h */,
+				A9B44D731829EF5F00857CF8 /* BasicUPnPService.h */,
+				A9B44D741829EF5F00857CF8 /* BinaryLight1Device.h */,
+				A9B44D751829EF5F00857CF8 /* CocoaTools.h */,
+				A9B44D761829EF5F00857CF8 /* DeviceFactory.h */,
+				A9B44D771829EF5F00857CF8 /* DigitalSecurityCamera1Device.h */,
+				A9B44D781829EF5F00857CF8 /* DimmableLight1Device.h */,
+				A9B44D791829EF5F00857CF8 /* InternetGateway2Device.h */,
+				A9B44D7A1829EF5F00857CF8 /* LAN1Device.h */,
+				A9B44D7B1829EF5F00857CF8 /* LastChangeParser.h */,
+				A9B44D7C1829EF5F00857CF8 /* MediaPlaylist.h */,
+				A9B44D7D1829EF5F00857CF8 /* MediaRenderer1Device.h */,
+				A9B44D7E1829EF5F00857CF8 /* MediaServer1BasicObject.h */,
+				A9B44D7F1829EF5F00857CF8 /* MediaServer1ContainerObject.h */,
+				A9B44D801829EF5F00857CF8 /* MediaServer1Device.h */,
+				A9B44D811829EF5F00857CF8 /* MediaServer1ItemObject.h */,
+				A9B44D821829EF5F00857CF8 /* MediaServer1ItemRes.h */,
+				A9B44D831829EF5F00857CF8 /* MediaServerBasicObjectParser.h */,
+				A9B44D841829EF5F00857CF8 /* ServiceFactory.h */,
+				A9B44D851829EF5F00857CF8 /* SoapAction.h */,
+				A9B44D861829EF5F00857CF8 /* SoapActionFactory.h */,
+				A9B44D871829EF5F00857CF8 /* SoapActionsAVTransport1.h */,
+				A9B44D881829EF5F00857CF8 /* SoapActionsCallManagement1.h */,
+				A9B44D891829EF5F00857CF8 /* SoapActionsConfigurationManagement1.h */,
+				A9B44D8A1829EF5F00857CF8 /* SoapActionsConnectionManager1.h */,
+				A9B44D8B1829EF5F00857CF8 /* SoapActionsContentDirectory1.h */,
+				A9B44D8C1829EF5F00857CF8 /* SoapActionsDeviceProtection1.h */,
+				A9B44D8D1829EF5F00857CF8 /* SoapActionsDigitalSecurityCameraMotionImage1.h */,
+				A9B44D8E1829EF5F00857CF8 /* SoapActionsDigitalSecurityCameraSettings1.h */,
+				A9B44D8F1829EF5F00857CF8 /* SoapActionsDigitalSecurityCameraStillImage1.h */,
+				A9B44D901829EF5F00857CF8 /* SoapActionsDimming1.h */,
+				A9B44D911829EF5F00857CF8 /* SoapActionsInputConfig1.h */,
+				A9B44D921829EF5F00857CF8 /* SoapActionsLANHostConfigManagement1.h */,
+				A9B44D931829EF5F00857CF8 /* SoapActionsLayer3Forwarding1.h */,
+				A9B44D941829EF5F00857CF8 /* SoapActionsMediaManagement1.h */,
+				A9B44D951829EF5F00857CF8 /* SoapActionsMessaging1.h */,
+				A9B44D961829EF5F00857CF8 /* SoapActionsRendering.h */,
+				A9B44D971829EF5F00857CF8 /* SoapActionsRenderingControl1.h */,
+				A9B44D981829EF5F00857CF8 /* SoapActionsSwitchPower1.h */,
+				A9B44D991829EF5F00857CF8 /* SoapActionsWANCableLinkConfig1.h */,
+				A9B44D9A1829EF5F00857CF8 /* SoapActionsWANCommonInterfaceConfig1.h */,
+				A9B44D9B1829EF5F00857CF8 /* SoapActionsWANDSLLinkConfig1.h */,
+				A9B44D9C1829EF5F00857CF8 /* SoapActionsWANEthernetLinkConfig1.h */,
+				A9B44D9D1829EF6000857CF8 /* SoapActionsWANIPConnection1.h */,
+				A9B44D9E1829EF6000857CF8 /* SoapActionsWANIPConnection2.h */,
+				A9B44D9F1829EF6000857CF8 /* SoapActionsWANIPv6FirewallControl1.h */,
+				A9B44DA01829EF6000857CF8 /* SoapActionsWANPOTSLinkConfig1.h */,
+				A9B44DA11829EF6000857CF8 /* SoapActionsWANPPPConnection1.h */,
+				A9B44DA21829EF6000857CF8 /* SSDPDB_ObjC.h */,
+				A9B44DA31829EF6000857CF8 /* StateVariable.h */,
+				A9B44DA41829EF6000857CF8 /* StateVariableList.h */,
+				A9B44DA51829EF6000857CF8 /* StateVariableRange.h */,
+				A9B44DA61829EF6000857CF8 /* TelephonyClient1Device.h */,
+				A9B44DA71829EF6000857CF8 /* TelephonyServer1Device.h */,
+				A9B44DA81829EF6000857CF8 /* UPnPDB.h */,
+				A9B44DA91829EF6000857CF8 /* UPnPEventParser.h */,
+				A9B44DAA1829EF6000857CF8 /* UPnPEvents.h */,
+				A9B44DAB1829EF6000857CF8 /* UPnPManager.h */,
+				A9B44DAC1829EF6000857CF8 /* WAN2Device.h */,
+				A9B44DAD1829EF6000857CF8 /* WANConnection1Device.h */,
+				A9B44DAE1829EF6000857CF8 /* WANConnection2Device.h */,
+			);
+			path = api;
+			sourceTree = SOURCE_ROOT;
+		};
+		A9B44DF11829EFB000857CF8 /* port */ = {
+			isa = PBXGroup;
+			children = (
+				A9B44DF21829EFB000857CF8 /* ios */,
+			);
+			path = port;
+			sourceTree = SOURCE_ROOT;
+		};
+		A9B44DF21829EFB000857CF8 /* ios */ = {
+			isa = PBXGroup;
+			children = (
+				A9B44DF31829EFB000857CF8 /* iphoneport.h */,
+			);
+			path = ios;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		15BAC4F2132C22BA00F5C41A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9B44C841829EE2800857CF8 /* ssdpdb.h in Headers */,
+				A9B44CB81829EE2800857CF8 /* OrderedDictionary.h in Headers */,
+				A9B44C771829EE2800857CF8 /* socketserver.h in Headers */,
+				A9B44C9B1829EE2800857CF8 /* ssdpsearchreq.h in Headers */,
+				A9B44DD11829EF6000857CF8 /* SoapActionsDigitalSecurityCameraStillImage1.h in Headers */,
+				A9B44DD21829EF6000857CF8 /* SoapActionsDimming1.h in Headers */,
+				A9B44DF41829EFB000857CF8 /* iphoneport.h in Headers */,
+				A9B44DB51829EF6000857CF8 /* BasicUPnPService.h in Headers */,
+				A9B44DC71829EF6000857CF8 /* SoapAction.h in Headers */,
+				A9B44DCD1829EF6000857CF8 /* SoapActionsContentDirectory1.h in Headers */,
+				A9B44DB31829EF6000857CF8 /* BasicServiceParser.h in Headers */,
+				A9B44DC91829EF6000857CF8 /* SoapActionsAVTransport1.h in Headers */,
+				A9B44DCA1829EF6000857CF8 /* SoapActionsCallManagement1.h in Headers */,
+				A9B44DC41829EF6000857CF8 /* MediaServer1ItemRes.h in Headers */,
+				A9B44DD61829EF6000857CF8 /* SoapActionsMediaManagement1.h in Headers */,
+				A9B44C821829EE2800857CF8 /* ssdp.h in Headers */,
+				A9B44DED1829EF6000857CF8 /* UPnPManager.h in Headers */,
+				A9B44DB41829EF6000857CF8 /* BasicUPnPDevice.h in Headers */,
+				A9B44DAF1829EF6000857CF8 /* BasicDeviceParser.h in Headers */,
+				A9B44C961829EE2800857CF8 /* ssdpnotifyupdate.h in Headers */,
+				A9B44DE51829EF6000857CF8 /* StateVariable.h in Headers */,
+				A9B44C721829EE2800857CF8 /* basichttpserver.h in Headers */,
+				A9B44CE51829EE7800857CF8 /* upnpx-Prefix.pch in Headers */,
+				A9B44DDF1829EF6000857CF8 /* SoapActionsWANIPConnection1.h in Headers */,
+				A9B44C971829EE2800857CF8 /* ssdpobserver.h in Headers */,
+				A9B44DB71829EF6000857CF8 /* CocoaTools.h in Headers */,
+				A9B44C701829EE2800857CF8 /* basichttpobserver.h in Headers */,
+				A9B44DE31829EF6000857CF8 /* SoapActionsWANPPPConnection1.h in Headers */,
+				A9B44DBB1829EF6000857CF8 /* InternetGateway2Device.h in Headers */,
+				A9B44DBC1829EF6000857CF8 /* LAN1Device.h in Headers */,
+				A9B44DE21829EF6000857CF8 /* SoapActionsWANPOTSLinkConfig1.h in Headers */,
+				A9B44DCC1829EF6000857CF8 /* SoapActionsConnectionManager1.h in Headers */,
+				A9B44DD71829EF6000857CF8 /* SoapActionsMessaging1.h in Headers */,
+				A9B44DC51829EF6000857CF8 /* MediaServerBasicObjectParser.h in Headers */,
+				A9B44C751829EE2800857CF8 /* httpsession.h in Headers */,
+				A9B44DF01829EF6000857CF8 /* WANConnection2Device.h in Headers */,
+				A9B44C991829EE2800857CF8 /* ssdpparser.h in Headers */,
+				A9B44CA11829EE2800857CF8 /* upnp.h in Headers */,
+				A9B44C6F1829EE2800857CF8 /* tools.h in Headers */,
+				A9B44DC11829EF6000857CF8 /* MediaServer1ContainerObject.h in Headers */,
+				A9B44C8E1829EE2800857CF8 /* ssdpmsearch.h in Headers */,
+				A9B44DC31829EF6000857CF8 /* MediaServer1ItemObject.h in Headers */,
+				A9B44DDA1829EF6000857CF8 /* SoapActionsSwitchPower1.h in Headers */,
+				A9B44DE61829EF6000857CF8 /* StateVariableList.h in Headers */,
+				A9B44C871829EE2800857CF8 /* ssdpdbdevice.h in Headers */,
+				A9B44DE01829EF6000857CF8 /* SoapActionsWANIPConnection2.h in Headers */,
+				A9B44DCE1829EF6000857CF8 /* SoapActionsDeviceProtection1.h in Headers */,
+				A9B44DC61829EF6000857CF8 /* ServiceFactory.h in Headers */,
+				A9B44DDD1829EF6000857CF8 /* SoapActionsWANDSLLinkConfig1.h in Headers */,
+				A9B44DD41829EF6000857CF8 /* SoapActionsLANHostConfigManagement1.h in Headers */,
+				A9B44C781829EE2800857CF8 /* SocketServer_ObjC.h in Headers */,
+				A9B44C9F1829EE2800857CF8 /* ssdptools.h in Headers */,
+				A9B44C921829EE2800857CF8 /* ssdpnotifyalive.h in Headers */,
+				A9B44C901829EE2800857CF8 /* ssdpnotify.h in Headers */,
+				A9B44DD51829EF6000857CF8 /* SoapActionsLayer3Forwarding1.h in Headers */,
+				A9B44DE41829EF6000857CF8 /* SSDPDB_ObjC.h in Headers */,
+				A9B44DEF1829EF6000857CF8 /* WANConnection1Device.h in Headers */,
+				A9B44C8A1829EE2800857CF8 /* ssdphttp.h in Headers */,
+				A9B44DB01829EF6000857CF8 /* BasicHTTPServer_ObjC.h in Headers */,
+				A9B44DEB1829EF6000857CF8 /* UPnPEventParser.h in Headers */,
+				A9B44DEA1829EF6000857CF8 /* UPnPDB.h in Headers */,
+				A9B44DB81829EF6000857CF8 /* DeviceFactory.h in Headers */,
+				A9B44DD31829EF6000857CF8 /* SoapActionsInputConfig1.h in Headers */,
+				A9B44DE91829EF6000857CF8 /* TelephonyServer1Device.h in Headers */,
+				A9B44DB21829EF6000857CF8 /* BasicParserAsset.h in Headers */,
+				A9B44C7B1829EE2800857CF8 /* socketserverconnection.h in Headers */,
+				A9B44DC01829EF6000857CF8 /* MediaServer1BasicObject.h in Headers */,
+				A9B44DC21829EF6000857CF8 /* MediaServer1Device.h in Headers */,
+				A9B44DB91829EF6000857CF8 /* DigitalSecurityCamera1Device.h in Headers */,
+				A9B44DDE1829EF6000857CF8 /* SoapActionsWANEthernetLinkConfig1.h in Headers */,
+				A9B44DD91829EF6000857CF8 /* SoapActionsRenderingControl1.h in Headers */,
+				A9B44DDC1829EF6000857CF8 /* SoapActionsWANCommonInterfaceConfig1.h in Headers */,
+				A9B44DE11829EF6000857CF8 /* SoapActionsWANIPv6FirewallControl1.h in Headers */,
+				A9B44DB11829EF6000857CF8 /* BasicParser.h in Headers */,
+				A9B44DEC1829EF6000857CF8 /* UPnPEvents.h in Headers */,
+				A9B44DBA1829EF6000857CF8 /* DimmableLight1Device.h in Headers */,
+				A9B44DBD1829EF6000857CF8 /* LastChangeParser.h in Headers */,
+				A9B44DEE1829EF6000857CF8 /* WAN2Device.h in Headers */,
+				A9B44C8C1829EE2800857CF8 /* ssdpmessage.h in Headers */,
+				A9B44DE71829EF6000857CF8 /* StateVariableRange.h in Headers */,
+				A9B44C881829EE2800857CF8 /* ssdpdbobserver.h in Headers */,
+				A9B44DBF1829EF6000857CF8 /* MediaRenderer1Device.h in Headers */,
+				A9B44DDB1829EF6000857CF8 /* SoapActionsWANCableLinkConfig1.h in Headers */,
+				A9B44C941829EE2800857CF8 /* ssdpnotifybye.h in Headers */,
+				A9B44DCF1829EF6000857CF8 /* SoapActionsDigitalSecurityCameraMotionImage1.h in Headers */,
+				A9B44DE81829EF6000857CF8 /* TelephonyClient1Device.h in Headers */,
+				A9B44DD01829EF6000857CF8 /* SoapActionsDigitalSecurityCameraSettings1.h in Headers */,
+				A9B44DD81829EF6000857CF8 /* SoapActionsRendering.h in Headers */,
+				A9B44DB61829EF6000857CF8 /* BinaryLight1Device.h in Headers */,
+				A9B44C6D1829EE2800857CF8 /* osal.h in Headers */,
+				A9B44C9D1829EE2800857CF8 /* ssdpsearchresp.h in Headers */,
+				A9B44DCB1829EF6000857CF8 /* SoapActionsConfigurationManagement1.h in Headers */,
+				A9B44C7C1829EE2800857CF8 /* socketServerobserver.h in Headers */,
+				A9B44DC81829EF6000857CF8 /* SoapActionFactory.h in Headers */,
+				A9B44DBE1829EF6000857CF8 /* MediaPlaylist.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		15BAC4F3132C22BA00F5C41A /* upnpx */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15BAC4FE132C22BA00F5C41A /* Build configuration list for PBXNativeTarget "upnpx" */;
+			buildPhases = (
+				15BAC4F0132C22BA00F5C41A /* Sources */,
+				15BAC4F1132C22BA00F5C41A /* Frameworks */,
+				15BAC4F2132C22BA00F5C41A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = upnpx;
+			productName = upnpx;
+			productReference = 15BAC4F4132C22BA00F5C41A /* libupnpx.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		15BAC4EB132C22BA00F5C41A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Bruno Keymolen";
+			};
+			buildConfigurationList = 15BAC4EE132C22BA00F5C41A /* Build configuration list for PBXProject "upnpx" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 15BAC4E9132C22BA00F5C41A;
+			productRefGroup = 15BAC4F5132C22BA00F5C41A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				15BAC4F3132C22BA00F5C41A /* upnpx */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		15BAC4F0132C22BA00F5C41A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9B44C741829EE2800857CF8 /* httpsession.cpp in Sources */,
+				A9B44CCD1829EE2800857CF8 /* SoapActionsRenderingControl1.m in Sources */,
+				A9B44C6E1829EE2800857CF8 /* tools.cpp in Sources */,
+				A9B44CA71829EE2800857CF8 /* BasicUPnPService.m in Sources */,
+				A9B44CC41829EE2800857CF8 /* SoapActionsDigitalSecurityCameraSettings1.m in Sources */,
+				A9B44CB41829EE2800857CF8 /* MediaServer1Device.m in Sources */,
+				A9B44CD31829EE2800857CF8 /* SoapActionsWANIPConnection1.m in Sources */,
+				A9B44CE11829EE2800857CF8 /* WAN2Device.m in Sources */,
+				A9B44CCF1829EE2800857CF8 /* SoapActionsWANCableLinkConfig1.m in Sources */,
+				A9B44CC61829EE2800857CF8 /* SoapActionsDimming1.m in Sources */,
+				A9B44C731829EE2800857CF8 /* BasicHTTPServer_ObjC.mm in Sources */,
+				A9B44CB01829EE2800857CF8 /* MediaPlaylist.m in Sources */,
+				A9B44CA01829EE2800857CF8 /* upnp.cpp in Sources */,
+				A9B44C931829EE2800857CF8 /* ssdpnotifybye.cpp in Sources */,
+				A9B44C851829EE2800857CF8 /* SSDPDB_ObjC.mm in Sources */,
+				A9B44CBD1829EE2800857CF8 /* SoapActionsAVTransport1.m in Sources */,
+				A9B44CB91829EE2800857CF8 /* OrderedDictionary.m in Sources */,
+				A9B44CA51829EE2800857CF8 /* BasicServiceParser.m in Sources */,
+				A9B44CA61829EE2800857CF8 /* BasicUPnPDevice.m in Sources */,
+				A9B44CE21829EE2800857CF8 /* WANConnection1Device.m in Sources */,
+				A9B44CB51829EE2800857CF8 /* MediaServer1ItemObject.m in Sources */,
+				A9B44CAC1829EE2800857CF8 /* DimmableLigh1tDevice.m in Sources */,
+				A9B44CCB1829EE2800857CF8 /* SoapActionsMessaging1.m in Sources */,
+				A9B44CE01829EE2800857CF8 /* UPnPManager.m in Sources */,
+				A9B44CC91829EE2800857CF8 /* SoapActionsLayer3Forwarding1.m in Sources */,
+				A9B44C811829EE2800857CF8 /* ssdp.cpp in Sources */,
+				A9B44C8F1829EE2800857CF8 /* ssdpnotify.cpp in Sources */,
+				A9B44CC71829EE2800857CF8 /* SoapActionsInputConfig1.m in Sources */,
+				A9B44CA91829EE2800857CF8 /* CocoaTools.m in Sources */,
+				A9B44C8B1829EE2800857CF8 /* ssdpmessage.cpp in Sources */,
+				A9B44CD61829EE2800857CF8 /* SoapActionsWANPOTSLinkConfig1.m in Sources */,
+				A9B44CDD1829EE2800857CF8 /* UPnPDB.m in Sources */,
+				A9B44CB61829EE2800857CF8 /* MediaServer1ItemRes.m in Sources */,
+				A9B44CCE1829EE2800857CF8 /* SoapActionsSwitchPower1.m in Sources */,
+				A9B44CCC1829EE2800857CF8 /* SoapActionsRendering.m in Sources */,
+				A9B44CD51829EE2800857CF8 /* SoapActionsWANIPv6FirewallControl1.m in Sources */,
+				A9B44CCA1829EE2800857CF8 /* SoapActionsMediaManagement1.m in Sources */,
+				A9B44CDC1829EE2800857CF8 /* TelephonyServer1Device.m in Sources */,
+				A9B44CA21829EE2800857CF8 /* BasicDeviceParser.m in Sources */,
+				A9B44CAB1829EE2800857CF8 /* DigitalSecurityCamera1Device.m in Sources */,
+				A9B44CAF1829EE2800857CF8 /* LastChangeParser.m in Sources */,
+				A9B44CA81829EE2800857CF8 /* BinaryLight1Device.m in Sources */,
+				A9B44CD41829EE2800857CF8 /* SoapActionsWANIPConnection2.m in Sources */,
+				A9B44CD81829EE2800857CF8 /* StateVariable.m in Sources */,
+				A9B44C891829EE2800857CF8 /* ssdphttp.cpp in Sources */,
+				A9B44CD21829EE2800857CF8 /* SoapActionsWANEthernetLinkConfig1.m in Sources */,
+				A9B44C9E1829EE2800857CF8 /* ssdptools.cpp in Sources */,
+				A9B44CBF1829EE2800857CF8 /* SoapActionsConfigurationManagement1.m in Sources */,
+				A9B44CBC1829EE2800857CF8 /* SoapActionFactory.m in Sources */,
+				A9B44CC31829EE2800857CF8 /* SoapActionsDigitalSecurityCameraMotionImage1.m in Sources */,
+				A9B44C711829EE2800857CF8 /* basichttpserver.cpp in Sources */,
+				A9B44CC81829EE2800857CF8 /* SoapActionsLANHostConfigManagement1.m in Sources */,
+				A9B44CDF1829EE2800857CF8 /* UPnPEvents.m in Sources */,
+				A9B44C9A1829EE2800857CF8 /* ssdpsearchreq.cpp in Sources */,
+				A9B44CB11829EE2800857CF8 /* MediaRenderer1Device.m in Sources */,
+				A9B44C9C1829EE2800857CF8 /* ssdpsearchresp.cpp in Sources */,
+				A9B44CB31829EE2800857CF8 /* MediaServer1ContainerObject.m in Sources */,
+				A9B44CBB1829EE2800857CF8 /* SoapAction.m in Sources */,
+				A9B44CC01829EE2800857CF8 /* SoapActionsConnectionManager1.m in Sources */,
+				A9B44CDA1829EE2800857CF8 /* StateVariableRange.m in Sources */,
+				A9B44CD71829EE2800857CF8 /* SoapActionsWANPPPConnection1.m in Sources */,
+				A9B44CB21829EE2800857CF8 /* MediaServer1BasicObject.m in Sources */,
+				A9B44C761829EE2800857CF8 /* socketserver.cpp in Sources */,
+				A9B44C861829EE2800857CF8 /* ssdpdbdevice.cpp in Sources */,
+				A9B44CC11829EE2800857CF8 /* SoapActionsContentDirectory1.m in Sources */,
+				A9B44CC21829EE2800857CF8 /* SoapActionsDeviceProtection1.m in Sources */,
+				A9B44CBE1829EE2800857CF8 /* SoapActionsCallManagement1.m in Sources */,
+				A9B44CC51829EE2800857CF8 /* SoapActionsDigitalSecurityCameraStillImage1.m in Sources */,
+				A9B44CAD1829EE2800857CF8 /* InternetGateway2Device.m in Sources */,
+				A9B44C831829EE2800857CF8 /* ssdpdb.cpp in Sources */,
+				A9B44CAA1829EE2800857CF8 /* DeviceFactory.m in Sources */,
+				A9B44CD91829EE2800857CF8 /* StateVariableList.m in Sources */,
+				A9B44C801829EE2800857CF8 /* main.mm in Sources */,
+				A9B44CB71829EE2800857CF8 /* MediaServerBasicObjectParser.m in Sources */,
+				A9B44CDB1829EE2800857CF8 /* TelephonyClient1Device.m in Sources */,
+				A9B44CA41829EE2800857CF8 /* BasicParserAsset.m in Sources */,
+				A9B44CD01829EE2800857CF8 /* SoapActionsWANCommonInterfaceConfig1.m in Sources */,
+				A9B44C981829EE2800857CF8 /* ssdpparser.cpp in Sources */,
+				A9B44CBA1829EE2800857CF8 /* ServiceFactory.m in Sources */,
+				A9B44CA31829EE2800857CF8 /* BasicParser.m in Sources */,
+				A9B44C951829EE2800857CF8 /* ssdpnotifyupdate.cpp in Sources */,
+				A9B44CAE1829EE2800857CF8 /* LAN1Device.m in Sources */,
+				A9B44CD11829EE2800857CF8 /* SoapActionsWANDSLLinkConfig1.m in Sources */,
+				A9B44C911829EE2800857CF8 /* ssdpnotifyalive.cpp in Sources */,
+				A9B44CE31829EE2800857CF8 /* WANConnection2Device.m in Sources */,
+				A9B44C8D1829EE2800857CF8 /* ssdpmsearch.cpp in Sources */,
+				A9B44C7A1829EE2800857CF8 /* socketserverconnection.cpp in Sources */,
+				A9B44CDE1829EE2800857CF8 /* UPnPEventParser.m in Sources */,
+				A9B44C791829EE2800857CF8 /* SocketServer_ObjC.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		15BAC4FC132C22BA00F5C41A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		15BAC4FD132C22BA00F5C41A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		15BAC4FF132C22BA00F5C41A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DSTROOT = /tmp/upnpx.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "upnpx-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS_NOT_USED_IN_PRECOMPS = UPNPX_IOS;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "../upnpx/port/ios ../upnpx/api ../upnpx/common";
+			};
+			name = Debug;
+		};
+		15BAC500132C22BA00F5C41A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DSTROOT = /tmp/upnpx.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "upnpx-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS_NOT_USED_IN_PRECOMPS = UPNPX_IOS;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "../upnpx/api ../upnpx/port/ios ../upnpx/common";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		15BAC4EE132C22BA00F5C41A /* Build configuration list for PBXProject "upnpx" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15BAC4FC132C22BA00F5C41A /* Debug */,
+				15BAC4FD132C22BA00F5C41A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		15BAC4FE132C22BA00F5C41A /* Build configuration list for PBXNativeTarget "upnpx" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15BAC4FF132C22BA00F5C41A /* Debug */,
+				15BAC500132C22BA00F5C41A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 15BAC4EB132C22BA00F5C41A /* Project object */;
+}

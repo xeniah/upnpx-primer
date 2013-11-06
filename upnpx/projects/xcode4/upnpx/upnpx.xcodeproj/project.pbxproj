@@ -1,0 +1,204 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		15BAC4F8132C22BA00F5C41A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15BAC4F7132C22BA00F5C41A /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		15BAC4F4132C22BA00F5C41A /* libupnpx.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libupnpx.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		15BAC4F7132C22BA00F5C41A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		15BAC4F1132C22BA00F5C41A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				15BAC4F8132C22BA00F5C41A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		15BAC4E9132C22BA00F5C41A = {
+			isa = PBXGroup;
+			children = (
+				15BAC4F6132C22BA00F5C41A /* Frameworks */,
+				15BAC4F5132C22BA00F5C41A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		15BAC4F5132C22BA00F5C41A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				15BAC4F4132C22BA00F5C41A /* libupnpx.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		15BAC4F6132C22BA00F5C41A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				15BAC4F7132C22BA00F5C41A /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		15BAC4F2132C22BA00F5C41A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		15BAC4F3132C22BA00F5C41A /* upnpx */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 15BAC4FE132C22BA00F5C41A /* Build configuration list for PBXNativeTarget "upnpx" */;
+			buildPhases = (
+				15BAC4F0132C22BA00F5C41A /* Sources */,
+				15BAC4F1132C22BA00F5C41A /* Frameworks */,
+				15BAC4F2132C22BA00F5C41A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = upnpx;
+			productName = upnpx;
+			productReference = 15BAC4F4132C22BA00F5C41A /* libupnpx.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		15BAC4EB132C22BA00F5C41A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+				ORGANIZATIONNAME = "Bruno Keymolen";
+			};
+			buildConfigurationList = 15BAC4EE132C22BA00F5C41A /* Build configuration list for PBXProject "upnpx" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 15BAC4E9132C22BA00F5C41A;
+			productRefGroup = 15BAC4F5132C22BA00F5C41A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				15BAC4F3132C22BA00F5C41A /* upnpx */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		15BAC4F0132C22BA00F5C41A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		15BAC4FC132C22BA00F5C41A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		15BAC4FD132C22BA00F5C41A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		15BAC4FF132C22BA00F5C41A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DSTROOT = /tmp/upnpx.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "upnpx/upnpx-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS_NOT_USED_IN_PRECOMPS = UPNPX_IOS;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "../../../src/api ../../../src/port/ios ../../../src/common";
+			};
+			name = Debug;
+		};
+		15BAC500132C22BA00F5C41A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				DSTROOT = /tmp/upnpx.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "upnpx/upnpx-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS_NOT_USED_IN_PRECOMPS = UPNPX_IOS;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "../../../src/api ../../../src/port/ios ../../../src/common";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		15BAC4EE132C22BA00F5C41A /* Build configuration list for PBXProject "upnpx" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15BAC4FC132C22BA00F5C41A /* Debug */,
+				15BAC4FD132C22BA00F5C41A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		15BAC4FE132C22BA00F5C41A /* Build configuration list for PBXNativeTarget "upnpx" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				15BAC4FF132C22BA00F5C41A /* Debug */,
+				15BAC500132C22BA00F5C41A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 15BAC4EB132C22BA00F5C41A /* Project object */;
+}

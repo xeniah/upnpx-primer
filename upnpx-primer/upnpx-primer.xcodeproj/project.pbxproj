@@ -1,0 +1,540 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A9B4463A1829E30600857CF8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9B446391829E30600857CF8 /* Foundation.framework */; };
+		A9B4463C1829E30600857CF8 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9B4463B1829E30600857CF8 /* CoreGraphics.framework */; };
+		A9B4463E1829E30600857CF8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9B4463D1829E30600857CF8 /* UIKit.framework */; };
+		A9B446441829E30600857CF8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A9B446421829E30600857CF8 /* InfoPlist.strings */; };
+		A9B446461829E30600857CF8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A9B446451829E30600857CF8 /* main.m */; };
+		A9B4464A1829E30600857CF8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A9B446491829E30600857CF8 /* AppDelegate.m */; };
+		A9B4464D1829E30600857CF8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9B4464B1829E30600857CF8 /* Main.storyboard */; };
+		A9B446501829E30600857CF8 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9B4464F1829E30600857CF8 /* FirstViewController.m */; };
+		A9B446531829E30600857CF8 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9B446521829E30600857CF8 /* SecondViewController.m */; };
+		A9B446551829E30600857CF8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9B446541829E30600857CF8 /* Images.xcassets */; };
+		A9B4465C1829E30600857CF8 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9B4465B1829E30600857CF8 /* XCTest.framework */; };
+		A9B4465D1829E30600857CF8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9B446391829E30600857CF8 /* Foundation.framework */; };
+		A9B4465E1829E30600857CF8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9B4463D1829E30600857CF8 /* UIKit.framework */; };
+		A9B446661829E30600857CF8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A9B446641829E30600857CF8 /* InfoPlist.strings */; };
+		A9B446681829E30600857CF8 /* upnpx_primerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A9B446671829E30600857CF8 /* upnpx_primerTests.m */; };
+		A9B449FF1829E88200857CF8 /* libupnpx.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A9B449FE1829E88200857CF8 /* libupnpx.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A9B4465F1829E30600857CF8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A9B4462E1829E30600857CF8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A9B446351829E30600857CF8;
+			remoteInfo = "upnpx-primer";
+		};
+		A9B44A041829E8C700857CF8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A9B44A001829E8C700857CF8 /* upnpx.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 15BAC4F4132C22BA00F5C41A;
+			remoteInfo = upnpx;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A9B446361829E30600857CF8 /* upnpx-primer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "upnpx-primer.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9B446391829E30600857CF8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A9B4463B1829E30600857CF8 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A9B4463D1829E30600857CF8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A9B446411829E30600857CF8 /* upnpx-primer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "upnpx-primer-Info.plist"; sourceTree = "<group>"; };
+		A9B446431829E30600857CF8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A9B446451829E30600857CF8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A9B446471829E30600857CF8 /* upnpx-primer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "upnpx-primer-Prefix.pch"; sourceTree = "<group>"; };
+		A9B446481829E30600857CF8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A9B446491829E30600857CF8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A9B4464C1829E30600857CF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A9B4464E1829E30600857CF8 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		A9B4464F1829E30600857CF8 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		A9B446511829E30600857CF8 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		A9B446521829E30600857CF8 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		A9B446541829E30600857CF8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		A9B4465A1829E30600857CF8 /* upnpx-primerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "upnpx-primerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9B4465B1829E30600857CF8 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		A9B446631829E30600857CF8 /* upnpx-primerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "upnpx-primerTests-Info.plist"; sourceTree = "<group>"; };
+		A9B446651829E30600857CF8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A9B446671829E30600857CF8 /* upnpx_primerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = upnpx_primerTests.m; sourceTree = "<group>"; };
+		A9B449FE1829E88200857CF8 /* libupnpx.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libupnpx.a; path = ../../libupnpx.a; sourceTree = "<group>"; };
+		A9B44A001829E8C700857CF8 /* upnpx.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = upnpx.xcodeproj; path = ../upnpx/upnpx.xcodeproj; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A9B446331829E30600857CF8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9B449FF1829E88200857CF8 /* libupnpx.a in Frameworks */,
+				A9B4463C1829E30600857CF8 /* CoreGraphics.framework in Frameworks */,
+				A9B4463E1829E30600857CF8 /* UIKit.framework in Frameworks */,
+				A9B4463A1829E30600857CF8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9B446571829E30600857CF8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9B4465C1829E30600857CF8 /* XCTest.framework in Frameworks */,
+				A9B4465E1829E30600857CF8 /* UIKit.framework in Frameworks */,
+				A9B4465D1829E30600857CF8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A9B4462D1829E30600857CF8 = {
+			isa = PBXGroup;
+			children = (
+				A9B4463F1829E30600857CF8 /* upnpx-primer */,
+				A9B446611829E30600857CF8 /* upnpx-primerTests */,
+				A9B446381829E30600857CF8 /* Frameworks */,
+				A9B446371829E30600857CF8 /* Products */,
+				A9B44A001829E8C700857CF8 /* upnpx.xcodeproj */,
+			);
+			sourceTree = "<group>";
+		};
+		A9B446371829E30600857CF8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A9B446361829E30600857CF8 /* upnpx-primer.app */,
+				A9B4465A1829E30600857CF8 /* upnpx-primerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A9B446381829E30600857CF8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A9B449FE1829E88200857CF8 /* libupnpx.a */,
+				A9B446391829E30600857CF8 /* Foundation.framework */,
+				A9B4463B1829E30600857CF8 /* CoreGraphics.framework */,
+				A9B4463D1829E30600857CF8 /* UIKit.framework */,
+				A9B4465B1829E30600857CF8 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A9B4463F1829E30600857CF8 /* upnpx-primer */ = {
+			isa = PBXGroup;
+			children = (
+				A9B446481829E30600857CF8 /* AppDelegate.h */,
+				A9B446491829E30600857CF8 /* AppDelegate.m */,
+				A9B4464B1829E30600857CF8 /* Main.storyboard */,
+				A9B4464E1829E30600857CF8 /* FirstViewController.h */,
+				A9B4464F1829E30600857CF8 /* FirstViewController.m */,
+				A9B446511829E30600857CF8 /* SecondViewController.h */,
+				A9B446521829E30600857CF8 /* SecondViewController.m */,
+				A9B446541829E30600857CF8 /* Images.xcassets */,
+				A9B446401829E30600857CF8 /* Supporting Files */,
+			);
+			path = "upnpx-primer";
+			sourceTree = "<group>";
+		};
+		A9B446401829E30600857CF8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A9B446411829E30600857CF8 /* upnpx-primer-Info.plist */,
+				A9B446421829E30600857CF8 /* InfoPlist.strings */,
+				A9B446451829E30600857CF8 /* main.m */,
+				A9B446471829E30600857CF8 /* upnpx-primer-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A9B446611829E30600857CF8 /* upnpx-primerTests */ = {
+			isa = PBXGroup;
+			children = (
+				A9B446671829E30600857CF8 /* upnpx_primerTests.m */,
+				A9B446621829E30600857CF8 /* Supporting Files */,
+			);
+			path = "upnpx-primerTests";
+			sourceTree = "<group>";
+		};
+		A9B446621829E30600857CF8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A9B446631829E30600857CF8 /* upnpx-primerTests-Info.plist */,
+				A9B446641829E30600857CF8 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A9B44A011829E8C700857CF8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A9B44A051829E8C700857CF8 /* libupnpx.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A9B446351829E30600857CF8 /* upnpx-primer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9B4466B1829E30600857CF8 /* Build configuration list for PBXNativeTarget "upnpx-primer" */;
+			buildPhases = (
+				A9B446321829E30600857CF8 /* Sources */,
+				A9B446331829E30600857CF8 /* Frameworks */,
+				A9B446341829E30600857CF8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "upnpx-primer";
+			productName = "upnpx-primer";
+			productReference = A9B446361829E30600857CF8 /* upnpx-primer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A9B446591829E30600857CF8 /* upnpx-primerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9B4466E1829E30600857CF8 /* Build configuration list for PBXNativeTarget "upnpx-primerTests" */;
+			buildPhases = (
+				A9B446561829E30600857CF8 /* Sources */,
+				A9B446571829E30600857CF8 /* Frameworks */,
+				A9B446581829E30600857CF8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A9B446601829E30600857CF8 /* PBXTargetDependency */,
+			);
+			name = "upnpx-primerTests";
+			productName = "upnpx-primerTests";
+			productReference = A9B4465A1829E30600857CF8 /* upnpx-primerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A9B4462E1829E30600857CF8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = ELINEF;
+				TargetAttributes = {
+					A9B446591829E30600857CF8 = {
+						TestTargetID = A9B446351829E30600857CF8;
+					};
+				};
+			};
+			buildConfigurationList = A9B446311829E30600857CF8 /* Build configuration list for PBXProject "upnpx-primer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A9B4462D1829E30600857CF8;
+			productRefGroup = A9B446371829E30600857CF8 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = A9B44A011829E8C700857CF8 /* Products */;
+					ProjectRef = A9B44A001829E8C700857CF8 /* upnpx.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				A9B446351829E30600857CF8 /* upnpx-primer */,
+				A9B446591829E30600857CF8 /* upnpx-primerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		A9B44A051829E8C700857CF8 /* libupnpx.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libupnpx.a;
+			remoteRef = A9B44A041829E8C700857CF8 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A9B446341829E30600857CF8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9B446551829E30600857CF8 /* Images.xcassets in Resources */,
+				A9B446441829E30600857CF8 /* InfoPlist.strings in Resources */,
+				A9B4464D1829E30600857CF8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9B446581829E30600857CF8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9B446661829E30600857CF8 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A9B446321829E30600857CF8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9B446531829E30600857CF8 /* SecondViewController.m in Sources */,
+				A9B4464A1829E30600857CF8 /* AppDelegate.m in Sources */,
+				A9B446501829E30600857CF8 /* FirstViewController.m in Sources */,
+				A9B446461829E30600857CF8 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A9B446561829E30600857CF8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9B446681829E30600857CF8 /* upnpx_primerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A9B446601829E30600857CF8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A9B446351829E30600857CF8 /* upnpx-primer */;
+			targetProxy = A9B4465F1829E30600857CF8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A9B446421829E30600857CF8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A9B446431829E30600857CF8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A9B4464B1829E30600857CF8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A9B4464C1829E30600857CF8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A9B446641829E30600857CF8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A9B446651829E30600857CF8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A9B446691829E30600857CF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A9B4466A1829E30600857CF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A9B4466C1829E30600857CF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "upnpx-primer/upnpx-primer-Prefix.pch";
+				INFOPLIST_FILE = "upnpx-primer/upnpx-primer-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/xeniah/Dropbox/XENIAH/EXPERIMENTS/chromecast_experiments,
+				);
+				OTHER_LDFLAGS = (
+					"-lstdc++",
+					"-all_load",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "../upnpx/api ../upnpx/port/ios ../upnpx/common";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A9B4466D1829E30600857CF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "upnpx-primer/upnpx-primer-Prefix.pch";
+				INFOPLIST_FILE = "upnpx-primer/upnpx-primer-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/xeniah/Dropbox/XENIAH/EXPERIMENTS/chromecast_experiments,
+				);
+				OTHER_LDFLAGS = (
+					"-lstdc++",
+					"-all_load",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "../upnpx/api ../upnpx/port/ios ../upnpx/common";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		A9B4466F1829E30600857CF8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/upnpx-primer.app/upnpx-primer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "upnpx-primer/upnpx-primer-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "upnpx-primerTests/upnpx-primerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		A9B446701829E30600857CF8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/upnpx-primer.app/upnpx-primer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "upnpx-primer/upnpx-primer-Prefix.pch";
+				INFOPLIST_FILE = "upnpx-primerTests/upnpx-primerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A9B446311829E30600857CF8 /* Build configuration list for PBXProject "upnpx-primer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9B446691829E30600857CF8 /* Debug */,
+				A9B4466A1829E30600857CF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9B4466B1829E30600857CF8 /* Build configuration list for PBXNativeTarget "upnpx-primer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9B4466C1829E30600857CF8 /* Debug */,
+				A9B4466D1829E30600857CF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9B4466E1829E30600857CF8 /* Build configuration list for PBXNativeTarget "upnpx-primerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A9B4466F1829E30600857CF8 /* Debug */,
+				A9B446701829E30600857CF8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A9B4462E1829E30600857CF8 /* Project object */;
+}
