@@ -429,10 +429,7 @@
 					"$(inherited)",
 					/Users/xeniah/Dropbox/XENIAH/EXPERIMENTS/chromecast_experiments,
 				);
-				OTHER_LDFLAGS = (
-					"-lstdc++",
-					"-all_load",
-				);
+				OTHER_LDFLAGS = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				USER_HEADER_SEARCH_PATHS = "../upnpx/api ../upnpx/port/ios ../upnpx/common";
 				WRAPPER_EXTENSION = app;
@@ -452,10 +449,7 @@
 					"$(inherited)",
 					/Users/xeniah/Dropbox/XENIAH/EXPERIMENTS/chromecast_experiments,
 				);
-				OTHER_LDFLAGS = (
-					"-lstdc++",
-					"-all_load",
-				);
+				OTHER_LDFLAGS = "";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				USER_HEADER_SEARCH_PATHS = "../upnpx/api ../upnpx/port/ios ../upnpx/common";
 				WRAPPER_EXTENSION = app;
