@@ -14,8 +14,6 @@
 		A9B446461829E30600857CF8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A9B446451829E30600857CF8 /* main.m */; };
 		A9B4464A1829E30600857CF8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A9B446491829E30600857CF8 /* AppDelegate.m */; };
 		A9B4464D1829E30600857CF8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A9B4464B1829E30600857CF8 /* Main.storyboard */; };
-		A9B446501829E30600857CF8 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9B4464F1829E30600857CF8 /* FirstViewController.m */; };
-		A9B446531829E30600857CF8 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9B446521829E30600857CF8 /* SecondViewController.m */; };
 		A9B446551829E30600857CF8 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9B446541829E30600857CF8 /* Images.xcassets */; };
 		A9B4465C1829E30600857CF8 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9B4465B1829E30600857CF8 /* XCTest.framework */; };
 		A9B4465D1829E30600857CF8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A9B446391829E30600857CF8 /* Foundation.framework */; };
@@ -23,6 +21,8 @@
 		A9B446661829E30600857CF8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A9B446641829E30600857CF8 /* InfoPlist.strings */; };
 		A9B446681829E30600857CF8 /* upnpx_primerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A9B446671829E30600857CF8 /* upnpx_primerTests.m */; };
 		A9B449FF1829E88200857CF8 /* libupnpx.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A9B449FE1829E88200857CF8 /* libupnpx.a */; };
+		A9C51F39182AB42700D8C919 /* DeviceListViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A9C51F38182AB42700D8C919 /* DeviceListViewController.m */; };
+		A9C51F40182ABC5000D8C919 /* libstdc++.6.0.9.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A9C51F3F182ABC5000D8C919 /* libstdc++.6.0.9.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,10 +54,6 @@
 		A9B446481829E30600857CF8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A9B446491829E30600857CF8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		A9B4464C1829E30600857CF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		A9B4464E1829E30600857CF8 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
-		A9B4464F1829E30600857CF8 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
-		A9B446511829E30600857CF8 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
-		A9B446521829E30600857CF8 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		A9B446541829E30600857CF8 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		A9B4465A1829E30600857CF8 /* upnpx-primerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "upnpx-primerTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9B4465B1829E30600857CF8 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -66,6 +62,9 @@
 		A9B446671829E30600857CF8 /* upnpx_primerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = upnpx_primerTests.m; sourceTree = "<group>"; };
 		A9B449FE1829E88200857CF8 /* libupnpx.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libupnpx.a; path = ../../libupnpx.a; sourceTree = "<group>"; };
 		A9B44A001829E8C700857CF8 /* upnpx.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = upnpx.xcodeproj; path = ../upnpx/upnpx.xcodeproj; sourceTree = "<group>"; };
+		A9C51F37182AB42700D8C919 /* DeviceListViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceListViewController.h; sourceTree = "<group>"; };
+		A9C51F38182AB42700D8C919 /* DeviceListViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeviceListViewController.m; sourceTree = "<group>"; };
+		A9C51F3F182ABC5000D8C919 /* libstdc++.6.0.9.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.6.0.9.dylib"; path = "usr/lib/libstdc++.6.0.9.dylib"; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A9C51F40182ABC5000D8C919 /* libstdc++.6.0.9.dylib in Frameworks */,
 				A9B449FF1829E88200857CF8 /* libupnpx.a in Frameworks */,
 				A9B4463C1829E30600857CF8 /* CoreGraphics.framework in Frameworks */,
 				A9B4463E1829E30600857CF8 /* UIKit.framework in Frameworks */,
@@ -116,6 +116,7 @@
 		A9B446381829E30600857CF8 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A9C51F3F182ABC5000D8C919 /* libstdc++.6.0.9.dylib */,
 				A9B449FE1829E88200857CF8 /* libupnpx.a */,
 				A9B446391829E30600857CF8 /* Foundation.framework */,
 				A9B4463B1829E30600857CF8 /* CoreGraphics.framework */,
@@ -131,12 +132,10 @@
 				A9B446481829E30600857CF8 /* AppDelegate.h */,
 				A9B446491829E30600857CF8 /* AppDelegate.m */,
 				A9B4464B1829E30600857CF8 /* Main.storyboard */,
-				A9B4464E1829E30600857CF8 /* FirstViewController.h */,
-				A9B4464F1829E30600857CF8 /* FirstViewController.m */,
-				A9B446511829E30600857CF8 /* SecondViewController.h */,
-				A9B446521829E30600857CF8 /* SecondViewController.m */,
 				A9B446541829E30600857CF8 /* Images.xcassets */,
 				A9B446401829E30600857CF8 /* Supporting Files */,
+				A9C51F37182AB42700D8C919 /* DeviceListViewController.h */,
+				A9C51F38182AB42700D8C919 /* DeviceListViewController.m */,
 			);
 			path = "upnpx-primer";
 			sourceTree = "<group>";
@@ -291,10 +290,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A9B446531829E30600857CF8 /* SecondViewController.m in Sources */,
 				A9B4464A1829E30600857CF8 /* AppDelegate.m in Sources */,
-				A9B446501829E30600857CF8 /* FirstViewController.m in Sources */,
 				A9B446461829E30600857CF8 /* main.m in Sources */,
+				A9C51F39182AB42700D8C919 /* DeviceListViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -377,7 +375,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
@@ -410,7 +408,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -429,7 +427,10 @@
 					"$(inherited)",
 					/Users/xeniah/Dropbox/XENIAH/EXPERIMENTS/chromecast_experiments,
 				);
-				OTHER_LDFLAGS = "";
+				OTHER_LDFLAGS = (
+					"-lstdc++",
+					"-all_load",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				USER_HEADER_SEARCH_PATHS = "../upnpx/api ../upnpx/port/ios ../upnpx/common";
 				WRAPPER_EXTENSION = app;
@@ -449,7 +450,10 @@
 					"$(inherited)",
 					/Users/xeniah/Dropbox/XENIAH/EXPERIMENTS/chromecast_experiments,
 				);
-				OTHER_LDFLAGS = "";
+				OTHER_LDFLAGS = (
+					"-lstdc++",
+					"-all_load",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				USER_HEADER_SEARCH_PATHS = "../upnpx/api ../upnpx/port/ios ../upnpx/common";
 				WRAPPER_EXTENSION = app;

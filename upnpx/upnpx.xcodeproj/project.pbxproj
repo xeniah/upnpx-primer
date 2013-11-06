@@ -381,6 +381,7 @@
 		A9B44DAD1829EF6000857CF8 /* WANConnection1Device.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WANConnection1Device.h; sourceTree = "<group>"; };
 		A9B44DAE1829EF6000857CF8 /* WANConnection2Device.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WANConnection2Device.h; sourceTree = "<group>"; };
 		A9B44DF31829EFB000857CF8 /* iphoneport.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iphoneport.h; sourceTree = "<group>"; };
+		A9C51F3A182ABB4400D8C919 /* libstdc++.6.0.9.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libstdc++.6.0.9.dylib"; path = "usr/lib/libstdc++.6.0.9.dylib"; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -415,6 +416,7 @@
 		15BAC4F6132C22BA00F5C41A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				A9C51F3A182ABB4400D8C919 /* libstdc++.6.0.9.dylib */,
 				15BAC4F7132C22BA00F5C41A /* Foundation.framework */,
 			);
 			name = Frameworks;
@@ -975,6 +977,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LIBRARY = "libstdc++";
 				DSTROOT = /tmp/upnpx.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "upnpx-Prefix.pch";
@@ -990,6 +993,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LIBRARY = "libstdc++";
 				DSTROOT = /tmp/upnpx.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "upnpx-Prefix.pch";
