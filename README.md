@@ -8,4 +8,4 @@ Original instructions on how to use the static library are here: https://code.go
 They are a bit outdated, here is what changed: 
   * both projects (primer and the library) are happily together in same workspace
   * User Header Search Paths were, naturally, updated for my local paths
-  * Liker Flags are not set. Setting Linker Flags as advised results in errors, without them builds fine.
+  * For XCode 5, iOS 7, library libstdc++.6.0.9.dylib needs to be added. For more on this issue, see http://stackoverflow.com/questions/18959691/ios7-only-stdlibc-linking-issue
